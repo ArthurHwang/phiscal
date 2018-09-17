@@ -1,0 +1,750 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 385 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 9304874 0 0
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 3073 1 77413 0 -1
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 2089 12169 2414 0 -1
+ciMethod java/lang/ref/Reference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 3073 1 51388 0 112
+ciMethod java/lang/ref/WeakReference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 3081 1 24933 0 112
+ciMethod java/lang/Thread currentThread ()Ljava/lang/Thread; 3073 1 384 0 -1
+ciMethod java/lang/Thread interrupt ()V 0 0 75 0 -1
+ciMethod sun/misc/Unsafe compareAndSwapObject (Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe compareAndSwapInt (Ljava/lang/Object;JII)Z 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe getObjectVolatile (Ljava/lang/Object;J)Ljava/lang/Object; 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe putOrderedObject (Ljava/lang/Object;JLjava/lang/Object;)V 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe unpark (Ljava/lang/Object;)V 3073 1 384 0 -1
+ciMethod java/lang/Integer valueOf (I)Ljava/lang/Integer; 2433 1 1576572 0 -1
+ciMethod java/lang/Long valueOf (J)Ljava/lang/Long; 2049 1 6559 0 -1
+ciMethod java/util/concurrent/atomic/AtomicInteger set (I)V 2081 1 18569 0 -1
+ciMethodData java/lang/Object <init> ()V 2 9304902 orig 264 8 177 4 84 0 0 0 0 128 4 170 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 49 202 111 4 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/concurrent/locks/ReentrantLock lock ()V 2049 1 50620 0 592
+ciMethod java/util/concurrent/locks/ReentrantLock tryLock ()Z 3081 1 18833 0 -1
+ciMethod java/util/concurrent/locks/ReentrantLock unlock ()V 2049 1 84372 0 336
+ciMethod java/util/concurrent/locks/ReentrantLock isHeldByCurrentThread ()Z 3209 1 37818 0 80
+ciMethod java/util/Queue add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/Queue poll ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Queue peek ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Queue contains (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/lang/AssertionError <init> ()V 0 0 1 0 -1
+ciMethodData java/lang/ref/Reference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2 51388 orig 264 8 177 4 84 0 0 0 0 128 130 172 20 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 225 57 6 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 72 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 9 0x10002 0xc73c 0xb0007 0x7461 0x38 0x52e2 0x110003 0x52e2 0x18 oops 0
+ciMethodData java/lang/ref/WeakReference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2 24933 orig 264 8 177 4 84 0 0 0 0 200 137 172 20 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 33 255 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 2 0x30002 0x5feb oops 0
+ciMethod java/util/concurrent/locks/ReentrantLock$NonfairSync lock ()V 2049 1 7429 0 272
+ciMethod java/util/concurrent/locks/ReentrantLock$NonfairSync tryAcquire (I)Z 177 1 5142 0 176
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync lock ()V 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync nonfairTryAcquire (I)Z 593 1 8268 0 176
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync tryRelease (I)Z 2049 1 6469 0 112
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync isHeldExclusively ()Z 2057 1 39773 0 80
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer getState ()I 1025 1 128 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer setState (I)V 2073 1 22258 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetState (II)Z 3393 1 35847 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer enq (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 3041 65 5366 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer addWaiter (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 2425 1 689 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer setHead (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 3081 1 6251 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer unparkSuccessor (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 17 1 913 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer cancelAcquire (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer shouldParkAfterFailedAcquire (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 5105 1 1023 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer selfInterrupt ()V 0 0 1 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer parkAndCheckInterrupt ()Z 281 1 458 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer acquireQueued (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;I)Z 33 1 5941 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer tryAcquire (I)Z 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer tryRelease (I)Z 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer acquire (I)V 161 1 4127 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer release (I)Z 3409 1 18945 0 272
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer hasQueuedPredecessors ()Z 2057 1 15334 0 112
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetTail (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 2113 1 5714 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetWaitStatus (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;II)Z 2081 1 11566 0 0
+ciMethod java/util/concurrent/locks/AbstractOwnableSynchronizer setExclusiveOwnerThread (Ljava/lang/Thread;)V 2081 1 34190 0 0
+ciMethod java/util/concurrent/locks/AbstractOwnableSynchronizer getExclusiveOwnerThread ()Ljava/lang/Thread; 1033 1 129 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer$Node predecessor ()Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 2441 1 7209 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer$Node <init> (Ljava/lang/Thread;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 3089 1 386 0 -1
+ciMethod java/util/AbstractQueue add (Ljava/lang/Object;)Z 2057 1 7437 0 80
+ciMethod java/util/AbstractQueue offer (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentLinkedQueue updateHead (Ljava/util/concurrent/ConcurrentLinkedQueue$Node;Ljava/util/concurrent/ConcurrentLinkedQueue$Node;)V 2433 1 6527 0 0
+ciMethod java/util/concurrent/ConcurrentLinkedQueue poll ()Ljava/lang/Object; 3081 713 6607 0 432
+ciMethod java/util/concurrent/ConcurrentLinkedQueue casHead (Ljava/util/concurrent/ConcurrentLinkedQueue$Node;Ljava/util/concurrent/ConcurrentLinkedQueue$Node;)Z 713 1 962 0 0
+ciMethod java/util/concurrent/atomic/AtomicReferenceArray checkedByteOffset (I)J 2049 1 5383 0 112
+ciMethod java/util/concurrent/atomic/AtomicReferenceArray byteOffset (I)J 2049 1 5383 0 0
+ciMethod java/util/concurrent/atomic/AtomicReferenceArray length ()I 2049 1 55545 0 0
+ciMethod java/util/concurrent/atomic/AtomicReferenceArray get (I)Ljava/lang/Object; 3097 1 79553 0 112
+ciMethod java/util/concurrent/atomic/AtomicReferenceArray getRaw (J)Ljava/lang/Object; 3097 1 79554 0 0
+ciMethod java/util/concurrent/atomic/AtomicReferenceArray set (ILjava/lang/Object;)V 2073 1 40841 0 -1
+ciMethod org/gradle/api/logging/Logger log (Lorg/gradle/api/logging/LogLevel;Ljava/lang/String;[Ljava/lang/Object;)V 0 0 1 0 -1
+ciMethod com/google/common/base/Preconditions checkState (ZLjava/lang/Object;)V 3073 1 15662 0 0
+ciMethod com/google/common/base/Equivalence equivalent (Ljava/lang/Object;Ljava/lang/Object;)Z 2049 1 25651 0 208
+ciMethod com/google/common/base/Equivalence doEquivalent (Ljava/lang/Object;Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod com/google/common/base/Equivalence$Equals doEquivalent (Ljava/lang/Object;Ljava/lang/Object;)Z 4097 1 9085 0 0
+ciMethod com/google/common/base/Ticker read ()J 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/LockSupport unpark (Ljava/lang/Thread;)V 3089 1 6639 0 0
+ciMethod java/util/concurrent/ConcurrentLinkedQueue$Node casItem (Ljava/lang/Object;Ljava/lang/Object;)Z 1361 1 346 0 0
+ciMethod java/util/concurrent/ConcurrentLinkedQueue$Node lazySetNext (Ljava/util/concurrent/ConcurrentLinkedQueue$Node;)V 713 1 962 0 0
+ciMethod java/util/concurrent/locks/ReentrantLock$FairSync lock ()V 49 1 6 0 0
+ciMethod java/util/concurrent/locks/ReentrantLock$FairSync tryAcquire (I)Z 2057 1 15316 0 240
+ciMethod com/google/common/cache/Cache size ()J 0 0 1 0 -1
+ciMethod com/google/common/cache/Cache stats ()Lcom/google/common/cache/CacheStats; 0 0 1 0 -1
+ciMethod com/google/common/cache/CacheBuilder$3 read ()J 1065 1 133 0 0
+ciMethod com/google/common/cache/LocalCache$Strength referenceValue (Lcom/google/common/cache/LocalCache$Segment;Lcom/google/common/cache/LocalCache$ReferenceEntry;Ljava/lang/Object;I)Lcom/google/common/cache/LocalCache$ValueReference; 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$Strength$1 referenceValue (Lcom/google/common/cache/LocalCache$Segment;Lcom/google/common/cache/LocalCache$ReferenceEntry;Ljava/lang/Object;I)Lcom/google/common/cache/LocalCache$ValueReference; 2049 1 8463 0 208
+ciMethod com/google/common/cache/LocalCache$Strength$3 referenceValue (Lcom/google/common/cache/LocalCache$Segment;Lcom/google/common/cache/LocalCache$ReferenceEntry;Ljava/lang/Object;I)Lcom/google/common/cache/LocalCache$ValueReference; 2065 1 258 0 0
+ciMethod com/google/common/cache/LocalCache$ValueReference get ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ValueReference notifyNewValue (Ljava/lang/Object;)V 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ValueReference isActive ()Z 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$StrongValueReference <init> (Ljava/lang/Object;)V 2049 1 8464 0 0
+ciMethod com/google/common/cache/LocalCache$WeakValueReference <init> (Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;Lcom/google/common/cache/LocalCache$ReferenceEntry;)V 2233 1 279 0 0
+ciMethod com/google/common/cache/LocalCache evictsBySize ()Z 2105 1 9503 0 48
+ciMethod com/google/common/cache/LocalCache recordsWrite ()Z 2057 1 8991 0 -1
+ciMethod com/google/common/cache/LocalCache recordsAccess ()Z 2057 1 10167 0 -1
+ciMethod com/google/common/cache/LocalCache usesKeyReferences ()Z 2081 1 6543 0 -1
+ciMethod com/google/common/cache/LocalCache usesValueReferences ()Z 3073 1 6530 0 -1
+ciMethod com/google/common/cache/LocalCache isExpired (Lcom/google/common/cache/LocalCache$ReferenceEntry;J)Z 2393 1 6504 0 -1
+ciMethod com/google/common/cache/LocalCache connectAccessOrder (Lcom/google/common/cache/LocalCache$ReferenceEntry;Lcom/google/common/cache/LocalCache$ReferenceEntry;)V 3081 1 28246 0 96
+ciMethod com/google/common/cache/LocalCache processPendingNotifications ()V 3089 1 6424 0 1232
+ciMethod com/google/common/cache/LocalCache$ReferenceEntry getValueReference ()Lcom/google/common/cache/LocalCache$ValueReference; 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ReferenceEntry setValueReference (Lcom/google/common/cache/LocalCache$ValueReference;)V 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ReferenceEntry getNext ()Lcom/google/common/cache/LocalCache$ReferenceEntry; 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ReferenceEntry getHash ()I 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ReferenceEntry getKey ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ReferenceEntry setAccessTime (J)V 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ReferenceEntry getNextInAccessQueue ()Lcom/google/common/cache/LocalCache$ReferenceEntry; 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ReferenceEntry setNextInAccessQueue (Lcom/google/common/cache/LocalCache$ReferenceEntry;)V 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ReferenceEntry getPreviousInAccessQueue ()Lcom/google/common/cache/LocalCache$ReferenceEntry; 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ReferenceEntry setPreviousInAccessQueue (Lcom/google/common/cache/LocalCache$ReferenceEntry;)V 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$ReferenceEntry setWriteTime (J)V 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$1 get ()Ljava/lang/Object; 1041 1 130 0 0
+ciMethod com/google/common/cache/LocalCache$1 isActive ()Z 1033 1 129 0 0
+ciMethod com/google/common/cache/LocalCache$2 poll ()Ljava/lang/Object; 1081 1 135 0 0
+ciMethod com/google/common/cache/Weigher weigh (Ljava/lang/Object;Ljava/lang/Object;)I 0 0 1 0 -1
+ciMethod com/google/common/cache/CacheBuilder$OneWeigher weigh (Ljava/lang/Object;Ljava/lang/Object;)I 1033 1 8321 0 0
+ciMethod com/google/common/cache/RemovalListener onRemoval (Lcom/google/common/cache/RemovalNotification;)V 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment newEntryArray (I)Ljava/util/concurrent/atomic/AtomicReferenceArray; 2049 1 447 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment newEntry (Ljava/lang/Object;ILcom/google/common/cache/LocalCache$ReferenceEntry;)Lcom/google/common/cache/LocalCache$ReferenceEntry; 4097 1 6658 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment copyEntry (Lcom/google/common/cache/LocalCache$ReferenceEntry;Lcom/google/common/cache/LocalCache$ReferenceEntry;)Lcom/google/common/cache/LocalCache$ReferenceEntry; 3169 1 1953 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment setValue (Lcom/google/common/cache/LocalCache$ReferenceEntry;Ljava/lang/Object;Ljava/lang/Object;J)V 4097 1 8897 0 0
+ciMethod com/google/common/cache/LocalCache$Segment drainReferenceQueues ()V 3073 1 6303 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment drainKeyReferenceQueue ()V 201 1 194 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment drainValueReferenceQueue ()V 233 1 516 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment recordWrite (Lcom/google/common/cache/LocalCache$ReferenceEntry;IJ)V 4097 1 8870 0 2576
+ciMethod com/google/common/cache/LocalCache$Segment drainRecencyQueue ()V 3073 9 5557 0 1456
+ciMethod com/google/common/cache/LocalCache$Segment expireEntries (J)V 3089 1 6062 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment enqueueNotification (Ljava/lang/Object;ILcom/google/common/cache/LocalCache$ValueReference;Lcom/google/common/cache/RemovalCause;)V 89 1 4168 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment evictEntries ()V 4097 1 8761 0 1872
+ciMethod com/google/common/cache/LocalCache$Segment getNextEvictable ()Lcom/google/common/cache/LocalCache$ReferenceEntry; 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment expand ()V 665 13945 207 0 0
+ciMethod com/google/common/cache/LocalCache$Segment storeLoadedValue (Ljava/lang/Object;ILcom/google/common/cache/LocalCache$LoadingValueReference;Ljava/lang/Object;)Z 4097 97 6785 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment removeCollectedEntry (Lcom/google/common/cache/LocalCache$ReferenceEntry;)V 9 1 38 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment removeEntry (Lcom/google/common/cache/LocalCache$ReferenceEntry;ILcom/google/common/cache/RemovalCause;)Z 0 0 1 0 -1
+ciMethod com/google/common/cache/LocalCache$Segment preWriteCleanup (J)V 2065 1 15619 0 0
+ciMethod com/google/common/cache/LocalCache$Segment postWriteCleanup ()V 3089 1 15624 0 0
+ciMethod com/google/common/cache/LocalCache$Segment runLockedCleanup (J)V 2065 1 6300 0 3024
+ciMethod com/google/common/cache/LocalCache$Segment runUnlockedCleanup ()V 3089 1 15638 0 0
+ciMethod com/google/common/cache/LocalCache$AccessQueue offer (Lcom/google/common/cache/LocalCache$ReferenceEntry;)Z 4097 1 8191 0 336
+ciMethod com/google/common/cache/LocalCache$AccessQueue contains (Ljava/lang/Object;)Z 2089 1 552 0 0
+ciMethod com/google/common/cache/LocalCache$AccessQueue offer (Ljava/lang/Object;)Z 4097 1 8689 0 0
+ciMethod com/google/common/cache/LocalCache$AccessQueue$1 getPreviousInAccessQueue ()Lcom/google/common/cache/LocalCache$ReferenceEntry; 1153 1 144 0 0
+ciMethod org/gradle/api/internal/changedetection/state/LoggingEvictionListener onRemoval (Lcom/google/common/cache/RemovalNotification;)V 31745 1 3970 0 0
+ciMethodData java/util/concurrent/locks/AbstractOwnableSynchronizer setExclusiveOwnerThread (Ljava/lang/Thread;)V 2 34190 orig 264 8 177 4 84 0 0 0 0 224 218 228 20 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 81 36 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod com/google/common/cache/LocalCache$LoadingValueReference isActive ()Z 4097 1 6842 0 0
+ciMethod com/google/common/cache/LocalCache$LoadingValueReference get ()Ljava/lang/Object; 4097 1 6851 0 0
+ciMethodData java/util/concurrent/locks/ReentrantLock lock ()V 2 50621 orig 264 8 177 4 84 0 0 0 0 112 8 196 20 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 233 37 6 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 192 4 0 0 0 0 0 data 6 0x4c005 0x0 0x213f8f80 0xc4d2 0x213f9030 0x6 oops 2 2 java/util/concurrent/locks/ReentrantLock$NonfairSync 4 java/util/concurrent/locks/ReentrantLock$FairSync
+ciMethodData java/util/concurrent/locks/ReentrantLock$NonfairSync lock ()V 2 7429 orig 264 8 177 4 84 0 0 0 0 0 143 228 20 0 0 0 0 32 2 0 0 144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 41 224 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 216 0 0 0 255 255 255 255 5 0 3 0 0 0 0 0 data 27 0x30005 0x0 0x213f8f80 0x1c05 0x0 0x0 0x60007 0x265 0x78 0x19a0 0xa0002 0x19a0 0xd0005 0x0 0x213f8f80 0x19a0 0x0 0x0 0x100003 0x19a0 0x48 0x150005 0x0 0x213f8f80 0x265 0x0 0x0 oops 3 2 java/util/concurrent/locks/ReentrantLock$NonfairSync 14 java/util/concurrent/locks/ReentrantLock$NonfairSync 23 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/locks/ReentrantLock$NonfairSync tryAcquire (I)Z 2 5142 orig 264 8 177 4 84 0 0 0 0 152 143 228 20 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 0 0 0 1 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 6 0x20005 0x73 0x213f8f80 0x1390 0x0 0x0 oops 1 2 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/locks/ReentrantLock$Sync nonfairTryAcquire (I)Z 2 8268 orig 264 8 177 4 84 0 0 0 0 160 149 228 20 0 0 0 0 224 2 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 74 0 0 0 17 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 12 0 2 0 0 0 144 1 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 50 0x2 0x2002 0x50005 0x103 0x213f8f80 0x1eff 0x0 0x0 0xa0007 0x1d64 0xa0 0x29f 0x100005 0x4 0x213f8f80 0x29b 0x0 0x0 0x130007 0x2 0x100 0x29d 0x180005 0x4 0x213f8f80 0x299 0x0 0x0 0x1f0005 0xff 0x213f8f80 0x1c64 0x0 0x0 0x220007 0x72 0x80 0x1cf2 0x2c0007 0x1cf1 0x30 0x0 0x350002 0x0 0x3c0005 0xff 0x213f8f80 0x1bf2 0x0 0x0 oops 5 4 java/util/concurrent/locks/ReentrantLock$NonfairSync 14 java/util/concurrent/locks/ReentrantLock$NonfairSync 24 java/util/concurrent/locks/ReentrantLock$NonfairSync 30 java/util/concurrent/locks/ReentrantLock$NonfairSync 46 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData com/google/common/cache/LocalCache evictsBySize ()Z 2 9503 orig 264 8 177 4 84 0 0 0 0 168 210 175 26 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 1 0 0 193 32 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 7 0x60007 0x25f 0x38 0x21bc 0xa0003 0x21be 0x18 oops 0
+ciMethod com/google/common/cache/LocalCache$StrongEntry getKey ()Ljava/lang/Object; 1041 1 130 0 0
+ciMethod com/google/common/cache/LocalCache$StrongEntry getValueReference ()Lcom/google/common/cache/LocalCache$ValueReference; 1041 1 130 0 0
+ciMethod com/google/common/cache/LocalCache$StrongEntry setValueReference (Lcom/google/common/cache/LocalCache$ValueReference;)V 2049 1 1290 0 0
+ciMethod com/google/common/cache/LocalCache$StrongEntry getHash ()I 1113 1 139 0 0
+ciMethod com/google/common/cache/LocalCache$StrongEntry getNext ()Lcom/google/common/cache/LocalCache$ReferenceEntry; 1065 1 133 0 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer setState (I)V 2 22258 orig 264 8 177 4 84 0 0 0 0 8 172 228 20 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 121 175 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetState (II)Z 2 35847 orig 264 8 177 4 84 0 0 0 0 168 172 228 20 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 1 0 0 249 82 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 48 0 0 0 255 255 255 255 5 0 9 0 0 0 0 0 data 6 0x90005 0x4 0x0 0x0 0x0 0x0 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer release (I)Z 2 18945 orig 264 8 177 4 84 0 0 0 0 24 194 228 20 0 0 0 0 240 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 170 1 0 0 185 66 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 160 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 20 0x20005 0x3a40 0x1cd22d30 0xf6 0x1cd22de0 0xcc 0x50007 0x84f 0x70 0x400a 0xe0007 0x2296 0x50 0x1d75 0x150007 0x19f1 0x30 0x384 0x1a0002 0x384 oops 2 2 org/codehaus/groovy/reflection/GroovyClassValuePreJava7$GroovyClassValuePreJava7Segment 4 org/codehaus/groovy/reflection/CachedClass$4
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer unparkSuccessor (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 1 913 orig 264 8 177 4 84 0 0 0 0 216 175 228 20 0 0 0 0 104 2 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 121 28 0 0 9 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 26 0 2 0 0 0 24 1 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 35 0x60007 0xb 0x30 0x384 0xc0002 0x384 0x160007 0x1 0x40 0x38e 0x1d0007 0x38e 0x98 0x0 0x2a0007 0x1 0x78 0x1 0x300007 0x0 0x58 0x1 0x380007 0x0 0x20 0x1 0x450003 0x1 0xffffffffffffffa0 0x490007 0x0 0x30 0x38f 0x500002 0x38f oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer acquire (I)V 2 4127 orig 264 8 177 4 84 0 0 0 0 232 191 228 20 0 0 0 0 16 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 0 0 0 89 128 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 192 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 24 0x20005 0x56 0x213f8f80 0x268 0x213fdfe0 0xd4d 0x50007 0xfec 0x90 0x21 0xd0002 0x21 0x110005 0x0 0x213f8f80 0x21 0x0 0x0 0x140007 0x21 0x30 0x0 0x170002 0x0 oops 3 2 java/util/concurrent/locks/ReentrantLock$NonfairSync 4 java/util/concurrent/ThreadPoolExecutor$Worker 14 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer addWaiter (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 1 689 orig 264 8 177 4 84 0 0 0 0 64 174 228 20 0 0 0 0 208 1 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 17 12 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 128 0 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 16 0x40002 0x182 0x80002 0x182 0x120007 0x2a 0x50 0x157 0x1d0002 0x157 0x200007 0x0 0x20 0x157 0x2c0002 0x2a oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer acquireQueued (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;I)Z 2 5941 orig 264 8 177 4 84 0 0 0 0 232 181 228 20 0 0 0 0 224 2 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 137 185 0 0 89 12 0 0 44 20 0 0 250 0 0 0 2 0 0 0 1 0 24 0 2 0 0 0 136 1 0 0 255 255 255 255 5 0 6 0 0 0 0 0 data 49 0x60005 0x249 0x213fc940 0x1677 0x0 0x0 0x110007 0xa7 0xb0 0x181b 0x160005 0x0 0x213f9030 0x1182 0x213f8f80 0x699 0x190007 0xe7 0x60 0x1733 0x1e0002 0x1733 0x2e0007 0x1734 0x30 0x0 0x330002 0x0 0x3c0002 0x18d 0x3f0007 0xd7 0x50 0xb5 0x430002 0xb5 0x46e007 0xb1 0x20 0x5 0x4c0003 0x18c 0xfffffffffffffec0 0x520007 0x0 0x30 0x0 0x570002 0x0 oops 3 2 java/util/concurrent/locks/AbstractQueuedSynchronizer$Node 12 java/util/concurrent/locks/ReentrantLock$FairSync 14 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer selfInterrupt ()V 1 1 orig 264 8 177 4 84 0 0 0 0 64 180 228 20 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 8 0x2 0x1 0x30005 0x0 0x20f5980 0x1 0x0 0x0 oops 1 4 java/lang/Thread
+ciMethodData java/util/concurrent/atomic/AtomicReferenceArray length ()I 2 55545 orig 264 8 177 4 84 0 0 0 0 112 178 233 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 201 191 6 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/concurrent/atomic/AtomicReferenceArray checkedByteOffset (I)J 2 5383 orig 264 8 177 4 84 0 0 0 0 248 175 233 20 0 0 0 0 80 2 0 0 224 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 57 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 0 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 32 0x10007 0x0 0x40 0x1407 0xa0007 0x1407 0xd0 0x0 0x150002 0x0 0x1a0005 0x0 0x0 0x0 0x0 0x0 0x1e0005 0x0 0x0 0x0 0x0 0x0 0x210005 0x0 0x0 0x0 0x0 0x0 0x240002 0x0 0x290002 0x1407 oops 0
+ciMethodData java/util/concurrent/atomic/AtomicReferenceArray byteOffset (I)J 2 5383 orig 264 8 177 4 84 0 0 0 0 144 176 233 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 57 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod com/google/common/cache/LocalCache$StrongAccessEntry getNextInAccessQueue ()Lcom/google/common/cache/LocalCache$ReferenceEntry; 1041 1 130 0 0
+ciMethod com/google/common/cache/LocalCache$StrongAccessEntry setNextInAccessQueue (Lcom/google/common/cache/LocalCache$ReferenceEntry;)V 2097 1 1327 0 0
+ciMethod com/google/common/cache/LocalCache$StrongAccessEntry getPreviousInAccessQueue ()Lcom/google/common/cache/LocalCache$ReferenceEntry; 1033 1 129 0 0
+ciMethod com/google/common/cache/LocalCache$StrongAccessEntry setPreviousInAccessQueue (Lcom/google/common/cache/LocalCache$ReferenceEntry;)V 4097 1 1585 0 0
+ciMethodData java/util/concurrent/locks/ReentrantLock$Sync tryRelease (I)Z 2 6469 orig 264 8 177 4 84 0 0 0 0 104 150 228 20 0 0 0 0 112 2 0 0 192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 41 194 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 32 1 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 36 0x10005 0x2 0x213f8f80 0x167e 0x213f9030 0x1c5 0x70002 0x1845 0xb0005 0x2 0x213f8f80 0x167e 0x213f9030 0x1c5 0xe0007 0x1845 0x30 0x0 0x150002 0x0 0x1c0007 0x5b0 0x50 0x1295 0x230005 0x1 0x213f8f80 0x10cf 0x213f9030 0x1c5 0x280005 0x2 0x213f8f80 0x167e 0x213f9030 0x1c5 oops 8 2 java/util/concurrent/locks/ReentrantLock$NonfairSync 4 java/util/concurrent/locks/ReentrantLock$FairSync 10 java/util/concurrent/locks/ReentrantLock$NonfairSync 12 java/util/concurrent/locks/ReentrantLock$FairSync 26 java/util/concurrent/locks/ReentrantLock$NonfairSync 28 java/util/concurrent/locks/ReentrantLock$FairSync 32 java/util/concurrent/locks/ReentrantLock$NonfairSync 34 java/util/concurrent/locks/ReentrantLock$FairSync
+ciMethodData java/util/concurrent/locks/ReentrantLock unlock ()V 2 84383 orig 264 8 177 4 84 0 0 0 0 224 10 196 20 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 249 68 10 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 6 0x50005 0x0 0x213f8f80 0x10fa0 0x213f9030 0x3900 oops 2 2 java/util/concurrent/locks/ReentrantLock$NonfairSync 4 java/util/concurrent/locks/ReentrantLock$FairSync
+ciMethodData java/util/concurrent/locks/ReentrantLock$Sync isHeldExclusively ()Z 2 39773 orig 264 8 177 4 84 0 0 0 0 8 151 228 20 0 0 0 0 192 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 225 210 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 120 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 15 0x10005 0x0 0x213f8f80 0x9548 0x213f9030 0x516 0x40002 0x9a60 0x70007 0x80e2 0x38 0x197f 0xb0003 0x197f 0x18 oops 2 2 java/util/concurrent/locks/ReentrantLock$NonfairSync 4 java/util/concurrent/locks/ReentrantLock$FairSync
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetWaitStatus (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;II)Z 2 11566 orig 264 8 177 4 84 0 0 0 0 48 214 228 20 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 81 97 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 48 0 0 0 255 255 255 255 5 0 9 0 0 0 0 0 data 6 0x90005 0x5 0x0 0x0 0x0 0x0 oops 0
+ciMethodData java/util/concurrent/locks/ReentrantLock isHeldByCurrentThread ()Z 2 37819 orig 264 8 177 4 84 0 0 0 0 168 12 196 20 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 145 1 0 0 81 145 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x6 0x213f8f80 0x9226 0x0 0x0 oops 1 2 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/ConcurrentLinkedQueue poll ()Ljava/lang/Object; 2 6607 orig 264 8 177 4 84 0 0 0 0 88 151 233 20 0 0 0 0 224 2 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 113 194 0 0 185 3 0 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 30 0 2 0 0 0 152 1 0 0 255 255 255 255 7 0 15 0 0 0 0 0 data 51 0xf0007 0x1818 0xf8 0xb0 0x160005 0x0 0x166fa230 0xb0 0x0 0x0 0x190007 0x0 0xa8 0xb0 0x1e0007 0x39 0x88 0x77 0x290007 0x3e 0x38 0x39 0x2d0003 0x39 0x18 0x310005 0x0 0x20b27960 0x77 0x0 0x0 0x3d0007 0x77 0x50 0x17a1 0x430005 0x0 0x20b27960 0x17a1 0x0 0x0 0x4a0007 0x77 0x38 0x0 0x4d0003 0x0 0xfffffffffffffe98 0x520003 0x77 0xfffffffffffffe80 oops 3 6 java/util/concurrent/ConcurrentLinkedQueue$Node 27 java/util/concurrent/ConcurrentLinkedQueue 37 java/util/concurrent/ConcurrentLinkedQueue
+ciMethodData java/util/concurrent/ConcurrentLinkedQueue$Node casItem (Ljava/lang/Object;Ljava/lang/Object;)Z 1 346 orig 264 8 177 4 84 0 0 0 0 216 237 155 26 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 170 0 0 0 129 5 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 255 255 255 255 5 0 9 0 0 0 0 0 data 6 0x90005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData java/util/concurrent/ConcurrentLinkedQueue updateHead (Ljava/util/concurrent/ConcurrentLinkedQueue$Node;Ljava/util/concurrent/ConcurrentLinkedQueue$Node;)V 2 6527 orig 264 8 177 4 84 0 0 0 0 176 148 233 20 0 0 0 0 216 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 1 0 0 121 194 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 128 0 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 16 0x20007 0x17c6 0x80 0x89 0x80002 0x89 0xb0007 0x0 0x50 0x89 0x100005 0x0 0x166fa230 0x89 0x0 0x0 oops 1 12 java/util/concurrent/ConcurrentLinkedQueue$Node
+ciMethodData java/util/concurrent/ConcurrentLinkedQueue casHead (Ljava/util/concurrent/ConcurrentLinkedQueue$Node;Ljava/util/concurrent/ConcurrentLinkedQueue$Node;)Z 2 962 orig 264 8 177 4 84 0 0 0 0 80 164 233 20 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 89 0 0 0 73 27 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 48 0 0 0 255 255 255 255 5 0 9 0 0 0 0 0 data 6 0x90005 0x10 0x0 0x0 0x0 0x0 oops 0
+ciMethodData java/util/concurrent/ConcurrentLinkedQueue$Node lazySetNext (Ljava/util/concurrent/ConcurrentLinkedQueue$Node;)V 2 962 orig 264 8 177 4 84 0 0 0 0 120 238 155 26 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 89 0 0 0 73 27 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 48 0 0 0 255 255 255 255 5 0 8 0 0 0 0 0 data 6 0x80005 0x8a 0x0 0x0 0x0 0x0 oops 0
+ciMethodData java/util/concurrent/locks/LockSupport unpark (Ljava/lang/Thread;)V 2 6639 orig 264 8 177 4 84 0 0 0 0 232 74 37 21 0 0 0 0 152 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 1 0 0 105 195 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 80 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 10 0x10007 0x0 0x50 0x186d 0x80005 0x0 0x1664caf0 0x186d 0x0 0x0 oops 1 6 sun/misc/Unsafe
+ciMethodData java/util/concurrent/atomic/AtomicReferenceArray get (I)Ljava/lang/Object; 2 79553 orig 264 8 177 4 84 0 0 0 0 16 179 233 20 0 0 0 0 72 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 131 1 0 0 241 169 9 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 32 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 4 0x30002 0x13540 0x60002 0x1353f oops 0
+ciMethodData java/util/concurrent/atomic/AtomicReferenceArray getRaw (J)Ljava/lang/Object; 2 79554 orig 264 8 177 4 84 0 0 0 0 176 179 233 20 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 131 1 0 0 249 169 9 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 48 0 0 0 255 255 255 255 5 0 8 0 0 0 0 0 data 6 0x80005 0x8 0x0 0x0 0x0 0x0 oops 0
+ciMethodData java/util/AbstractQueue add (Ljava/lang/Object;)Z 2 7437 orig 264 8 177 4 84 0 0 0 0 40 125 233 20 0 0 0 0 176 1 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 97 224 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 96 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 12 0x20005 0xfc8 0x20b27ac0 0x51b 0x20b27a10 0x72b 0x50007 0x0 0x20 0x1c0e 0x100002 0x0 oops 2 2 com/google/common/cache/LocalCache$AccessQueue 4 com/google/common/cache/LocalCache$2
+ciMethodData java/util/concurrent/locks/ReentrantLock$FairSync tryAcquire (I)Z 2 15316 orig 264 8 177 4 84 0 0 0 0 40 151 161 26 0 0 0 0 48 3 0 0 160 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 153 214 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 224 1 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 60 0x2 0x3ad3 0x50005 0x2 0x213f9030 0x3ad1 0x0 0x0 0xa0007 0x12 0xf0 0x3ac1 0xe0005 0x2 0x213f9030 0x3abf 0x0 0x0 0x110007 0xbc 0x150 0x3a04 0x170005 0x2 0x213f9030 0x3a03 0x0 0x0 0x1a0007 0x7 0x100 0x3a01 0x1f0005 0x2 0x213f9030 0x39ff 0x0 0x0 0x260005 0x0 0x213f9030 0x12 0x0 0x0 0x290007 0x12 0x80 0x0 0x330007 0x0 0x30 0x0 0x3c0002 0x0 0x430005 0x0 0x0 0x0 0x0 0x0 oops 5 4 java/util/concurrent/locks/ReentrantLock$FairSync 14 java/util/concurrent/locks/ReentrantLock$FairSync 24 java/util/concurrent/locks/ReentrantLock$FairSync 34 java/util/concurrent/locks/ReentrantLock$FairSync 40 java/util/concurrent/locks/ReentrantLock$FairSync
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer hasQueuedPredecessors ()Z 2 15334 orig 264 8 177 4 84 0 0 0 0 8 202 228 20 0 0 0 0 208 1 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 41 215 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 12 0 2 0 0 0 136 0 0 0 255 255 255 255 7 0 12 0 0 0 0 0 data 17 0xc0007 0x2b84 0x88 0xf63 0x150007 0x0 0x50 0xf63 0x1c0002 0xf63 0x1f0007 0xea8 0x38 0xbb 0x230003 0xbb 0x18 oops 0
+ciMethodData java/util/concurrent/locks/ReentrantLock tryLock ()Z 2 18833 orig 264 8 177 4 84 0 0 0 0 168 9 196 20 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 129 64 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 6 0x50005 0x1 0x213f8f80 0x4810 0x0 0x0 oops 1 2 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData com/google/common/cache/LocalCache$Segment drainRecencyQueue ()V 2 5557 orig 264 8 177 4 84 0 0 0 0 40 77 177 26 0 0 0 0 96 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 169 161 0 0 169 4 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 7 0 2 0 0 0 24 1 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 35 0x40005 0x0 0x20b27960 0x12c4 0x20b27a10 0x1bf 0x90104 0x0 0x1e48c690 0x4c 0x0 0x0 0xe0007 0x143b 0xb8 0x4c 0x160005 0x0 0x20b27ac0 0x4c 0x0 0x0 0x1b0007 0x3 0xffffffffffffff50 0x49 0x230005 0x0 0x20b27ac0 0x49 0x0 0x0 0x290003 0x49 0xffffffffffffff00 oops 5 2 java/util/concurrent/ConcurrentLinkedQueue 4 com/google/common/cache/LocalCache$2 8 com/google/common/cache/LocalCache$StrongAccessEntry 18 com/google/common/cache/LocalCache$AccessQueue 28 com/google/common/cache/LocalCache$AccessQueue
+ciMethodData com/google/common/cache/LocalCache$StrongEntry setValueReference (Lcom/google/common/cache/LocalCache$ValueReference;)V 2 1290 orig 264 8 177 4 84 0 0 0 0 8 11 149 30 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 81 32 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData com/google/common/cache/LocalCache$StrongAccessEntry setNextInAccessQueue (Lcom/google/common/cache/LocalCache$ReferenceEntry;)V 2 1327 orig 264 8 177 4 84 0 0 0 0 56 219 244 31 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 1 0 0 73 33 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData com/google/common/cache/LocalCache$Segment preWriteCleanup (J)V 2 15622 orig 264 8 177 4 84 0 0 0 0 192 127 177 26 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 33 224 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 6 0x20005 0x0 0x1e48b950 0x3c06 0x0 0x0 oops 1 2 com/google/common/cache/LocalCache$Segment
+ciMethodData com/google/common/cache/LocalCache$Segment runLockedCleanup (J)V 2 6300 orig 264 8 177 4 84 0 0 0 0 24 130 177 26 0 0 0 0 176 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 209 188 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 24 0 2 0 0 0 88 1 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 43 0x10005 0x0 0x1e48b950 0x179a 0x0 0x0 0x40007 0x0 0x128 0x179c 0x80005 0x0 0x1e48b950 0x179c 0x0 0x0 0xd0005 0x0 0x1e48b950 0x179b 0x0 0x0 0x150005 0x101 0x166c7730 0x1697 0x0 0x0 0x190005 0x0 0x1e48b950 0x179b 0x0 0x0 0x1c0003 0x179a 0x48 0x210005 0x0 0x0 0x0 0x0 0x0 oops 5 2 com/google/common/cache/LocalCache$Segment 12 com/google/common/cache/LocalCache$Segment 18 com/google/common/cache/LocalCache$Segment 24 java/util/concurrent/atomic/AtomicInteger 30 com/google/common/cache/LocalCache$Segment
+ciMethodData com/google/common/cache/LocalCache connectAccessOrder (Lcom/google/common/cache/LocalCache$ReferenceEntry;Lcom/google/common/cache/LocalCache$ReferenceEntry;)V 2 28246 orig 264 8 177 4 84 0 0 0 0 80 233 175 26 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 169 102 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 96 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 12 0x20005 0x4c 0x1ba580a0 0x1517 0x1e48c690 0x5775 0x90005 0x284c 0x1ba580a0 0x1515 0x1e48c690 0x2f76 oops 4 2 com/google/common/cache/LocalCache$NullEntry 4 com/google/common/cache/LocalCache$StrongAccessEntry 8 com/google/common/cache/LocalCache$NullEntry 10 com/google/common/cache/LocalCache$StrongAccessEntry
+ciMethodData com/google/common/base/Preconditions checkState (ZLjava/lang/Object;)V 2 15662 orig 264 8 177 4 84 0 0 0 0 128 37 252 20 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 113 221 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 64 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 8 0x10007 0x3baf 0x40 0x0 0x90002 0x0 0xc0002 0x0 oops 0
+ciMethodData com/google/common/base/Equivalence equivalent (Ljava/lang/Object;Ljava/lang/Object;)Z 2 25651 orig 264 8 177 4 84 0 0 0 0 48 178 255 20 0 0 0 0 232 1 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 153 25 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 144 0 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 18 0x20007 0x410c 0x20 0x2227 0x80007 0x0 0x40 0x410c 0xc0007 0x410e 0x20 0x0 0x140005 0x0 0x1e48c7f0 0x235b 0x1c8dd8f0 0x1db1 oops 2 14 com/google/common/base/Equivalence$Equals 16 org/gradle/internal/reflect/Methods$1
+ciMethodData com/google/common/cache/LocalCache$Segment drainReferenceQueues ()V 2 6303 orig 264 8 177 4 84 0 0 0 0 128 69 177 26 0 0 0 0 72 2 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 249 184 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 17 0 2 0 0 0 0 1 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 32 0x40005 0x0 0x1e48f780 0x171f 0x0 0x0 0x70007 0x16ba 0x50 0x65 0xb0005 0x0 0x1e48b950 0x65 0x0 0x0 0x120005 0x0 0x1e48f780 0x171e 0x0 0x0 0x150007 0x1679 0x50 0xa5 0x190005 0x0 0x1e48b950 0xa5 0x0 0x0 oops 4 2 com/google/common/cache/LocalCache 12 com/google/common/cache/LocalCache$Segment 18 com/google/common/cache/LocalCache 28 com/google/common/cache/LocalCache$Segment
+ciMethodData com/google/common/cache/LocalCache$Segment drainKeyReferenceQueue ()V 1 194 orig 264 8 177 4 84 0 0 0 0 120 70 177 26 0 0 0 0 72 2 0 0 232 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 73 5 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 255 255 255 255 5 0 6 0 0 0 0 0 data 32 0x60005 0x0 0x168ac650 0xa9 0x0 0x0 0xb0007 0xa9 0xd0 0x0 0xf0004 0x0 0x0 0x0 0x0 0x0 0x180005 0x0 0x0 0x0 0x0 0x0 0x210007 0x0 0x38 0x0 0x240003 0x0 0x30 0x270003 0x0 0xffffffffffffff18 oops 1 2 java/lang/ref/ReferenceQueue
+ciMethodData com/google/common/cache/LocalCache$Segment drainValueReferenceQueue ()V 1 516 orig 264 8 177 4 84 0 0 0 0 112 71 177 26 0 0 0 0 72 2 0 0 232 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29 0 0 0 57 15 0 0 25 6 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 255 255 255 255 5 0 6 0 0 0 0 0 data 32 0x60005 0x0 0x168ac650 0x2aa 0x0 0x0 0xb0007 0x1e1 0xd0 0xc9 0xf0004 0x0 0x168ac420 0xc9 0x0 0x0 0x180005 0x0 0x1e48f780 0xc9 0x0 0x0 0x210007 0xc3 0x38 0x6 0x240003 0x6 0x30 0x270003 0xc3 0xffffffffffffff18 oops 3 2 java/lang/ref/ReferenceQueue 12 com/google/common/cache/LocalCache$WeakValueReference 18 com/google/common/cache/LocalCache
+ciMethodData com/google/common/cache/LocalCache$Segment expireEntries (J)V 2 6062 orig 264 8 177 4 84 0 0 0 0 56 79 177 26 0 0 0 0 72 4 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 1 0 0 97 177 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 18 0 2 0 0 0 240 2 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 94 0x10005 0x0 0x1e48b950 0x162b 0x0 0x0 0x80005 0x0 0x20b27a10 0x162b 0x0 0x0 0xd0104 0x0 0x0 0x0 0x0 0x0 0x120007 0x162b 0x100 0x0 0x1b0005 0x0 0x0 0x0 0x0 0x0 0x1e0007 0x0 0xb0 0x0 0x240005 0x0 0x0 0x0 0x0 0x0 0x2c0005 0x0 0x0 0x0 0x0 0x0 0x2f0007 0x0 0xfffffffffffffed0 0x0 0x360002 0x0 0x3e0005 0x0 0x20b27a10 0x13a 0x20b27ac0 0x14f1 0x430104 0x0 0x1e48c690 0x14c3 0x0 0x0 0x480007 0x168 0x100 0x14c2 0x510005 0x0 0x1e48f780 0x14c4 0x0 0x0 0x540007 0x14c2 0xb0 0x0 0x5a0005 0x0 0x0 0x0 0x0 0x0 0x620005 0x0 0x0 0x0 0x0 0x0 0x650007 0x0 0xfffffffffffffed0 0x0 0x6c0002 0x0 oops 6 2 com/google/common/cache/LocalCache$Segment 8 com/google/common/cache/LocalCache$2 52 com/google/common/cache/LocalCache$2 54 com/google/common/cache/LocalCache$AccessQueue 58 com/google/common/cache/LocalCache$StrongAccessEntry 68 com/google/common/cache/LocalCache
+ciMethodData com/google/common/cache/LocalCache$Segment removeEntry (Lcom/google/common/cache/LocalCache$ReferenceEntry;ILcom/google/common/cache/RemovalCause;)Z 1 0 orig 264 8 177 4 84 0 0 0 0 96 126 177 26 0 0 0 0 56 3 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 216 1 0 0 255 255 255 255 5 0 17 0 0 0 0 0 data 59 0x110005 0x0 0x0 0x0 0x0 0x0 0x1d0005 0x0 0x0 0x0 0x0 0x0 0x200004 0x0 0x0 0x0 0x0 0x0 0x2b0007 0x0 0x148 0x0 0x310007 0x0 0xe0 0x0 0x450005 0x0 0x0 0x0 0x0 0x0 0x4d0005 0x0 0x0 0x0 0x0 0x0 0x530005 0x0 0x0 0x0 0x0 0x0 0x660005 0x0 0x0 0x0 0x0 0x0 0x730005 0x0 0x0 0x0 0x0 0x0 0x7a0003 0x0 0xfffffffffffffed0 oops 0
+ciMethodData com/google/common/cache/LocalCache$Segment postWriteCleanup ()V 2 15635 orig 264 8 177 4 84 0 0 0 0 104 128 177 26 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 1 0 0 137 220 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 12 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 6 0x10005 0x0 0x1e48b950 0x3b8f 0x0 0x0 oops 1 2 com/google/common/cache/LocalCache$Segment
+ciMethodData com/google/common/cache/LocalCache$Segment runUnlockedCleanup ()V 2 15639 orig 264 8 177 4 84 0 0 0 0 200 130 177 26 0 0 0 0 200 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 1 0 0 169 220 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 128 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 16 0x10005 0x0 0x1e48b950 0x3b97 0x0 0x0 0x40007 0x0 0x50 0x3b95 0xb0005 0x0 0x1e48f780 0x3b94 0x0 0x0 oops 2 2 com/google/common/cache/LocalCache$Segment 12 com/google/common/cache/LocalCache
+ciMethodData com/google/common/cache/LocalCache processPendingNotifications ()V 2 6424 orig 264 8 177 4 84 0 0 0 0 136 236 175 26 0 0 0 0 88 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 1 0 0 177 188 0 0 121 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 16 0 2 0 0 0 16 1 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 34 0x40005 0x0 0x20b27a10 0xeaf 0x20b27960 0x8f8 0x90104 0x0 0x18e08470 0xf 0x0 0x0 0xe0007 0x1796 0xb0 0xf 0x160005 0x0 0x1b8d2940 0xf 0x0 0x0 0x1b0003 0xf 0xffffffffffffff50 0x280005 0x0 0x0 0x0 0x0 0x0 0x2b0003 0x0 0xffffffffffffff08 oops 4 2 com/google/common/cache/LocalCache$2 4 java/util/concurrent/ConcurrentLinkedQueue 8 com/google/common/cache/RemovalNotification 18 org/gradle/api/internal/changedetection/state/LoggingEvictionListener
+ciMethodData com/google/common/cache/LocalCache$Strength$1 referenceValue (Lcom/google/common/cache/LocalCache$Segment;Lcom/google/common/cache/LocalCache$ReferenceEntry;Ljava/lang/Object;I)Lcom/google/common/cache/LocalCache$ValueReference; 2 8463 orig 264 8 177 4 84 0 0 0 0 112 38 175 26 0 0 0 0 152 1 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 121 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 88 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 11 0x30007 0x0 0x48 0x200f 0xb0002 0x2012 0xe0003 0x2010 0x28 0x180002 0x0 oops 0
+ciMethodData com/google/common/cache/LocalCache$StrongValueReference <init> (Ljava/lang/Object;)V 2 8464 orig 264 8 177 4 84 0 0 0 0 144 63 175 26 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 129 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x2011 oops 0
+ciMethodData com/google/common/cache/LocalCache$StrongAccessEntry setPreviousInAccessQueue (Lcom/google/common/cache/LocalCache$ReferenceEntry;)V 2 1585 orig 264 8 177 4 84 0 0 0 0 144 220 244 31 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 137 33 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData com/google/common/cache/LocalCache$LoadingValueReference get ()Ljava/lang/Object; 2 6851 orig 264 8 177 4 84 0 0 0 0 56 176 74 27 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 25 198 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x1daa1490 0x18c5 0x0 0x0 oops 1 2 com/google/common/cache/LocalCache$1
+ciMethodData com/google/common/cache/LocalCache$LoadingValueReference isActive ()Z 2 6844 orig 264 8 177 4 84 0 0 0 0 232 168 74 27 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 225 197 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x1daa1490 0x18be 0x0 0x0 oops 1 2 com/google/common/cache/LocalCache$1
+ciMethodData com/google/common/cache/LocalCache$Segment storeLoadedValue (Ljava/lang/Object;ILcom/google/common/cache/LocalCache$LoadingValueReference;Ljava/lang/Object;)Z 2 6785 orig 264 8 177 4 84 0 0 0 0 64 110 177 26 0 0 0 0 136 8 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 9 196 0 0 57 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 88 0 2 0 0 0 32 7 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 228 0x10005 0x0 0x1e48b950 0x1882 0x0 0x0 0xb0005 0x0 0x1e48c530 0x1881 0x0 0x0 0x130005 0x0 0x1e48b950 0x1882 0x0 0x0 0x240007 0x183a 0x50 0x45 0x280005 0x0 0x1e48b950 0x45 0x0 0x0 0x3c0005 0x14b 0x1e48c5e0 0x1737 0x0 0x0 0x480005 0x14b 0x1e48c5e0 0x1737 0x0 0x0 0x4b0004 0x0 0x1e48c690 0x17f2 0x1e48c740 0x7b 0x560007 0x0 0x430 0x1888 0x5bf005 0x18 0x1e48c690 0x17f9 0x1e48c740 0x7b 0x640005 0x18 0x1e48c690 0x17f9 0x1e48c740 0x7b 0x6a0007 0x7 0x368 0x1882 0x6f0007 0x0 0x348 0x1886 0x7c0005 0x14e 0x1e48c7f0 0x1737 0x0 0x0 0x7f0007 0x0 0x2f8 0x1884 0x840005 0x18 0x1e48c690 0x17f0 0x1e48c740 0x7b 0x8d0005 0x0 0x1e48bb80 0x1886 0x0 0x0 0x970007 0x1886 0x60 0x0 0x9c0007 0x0 0x1b8 0x0 0xa40007 0x0 0x198 0x0 0xb20005 0x0 0x1e48bb80 0x1882 0x0 0x0 0xb50007 0x1884 0x88 0x0 0xba0007 0x0 0x38 0x0 0xc00003 0x0 0x18 0xce0005 0x0 0x0 0x0 0x0 0x0 0xdc0005 0x0 0x1e48b950 0x1883 0x0 0x0 0xe60005 0x0 0x1e48b950 0x1884 0x0 0x0 0xed0005 0x0 0x1e48b950 0x1881 0x0 0x0 0xf10005 0x0 0x1e48b950 0x1884 0x0 0x0 0xfe0002 0x0 0x10b0005 0x0 0x0 0x0 0x0 0x0 0x1120005 0x0 0x0 0x0 0x0 0x0 0x1160005 0x0 0x0 0x0 0x0 0x0 0x11e0005 0x0 0x1e48c690 0x7 0x0 0x0 0x1250003 0x7 0xfffffffffffffbe8 0x1370005 0x0 0x0 0x0 0x0 0x0 0x1440005 0x0 0x0 0x0 0x0 0x0 0x14d0005 0x0 0x0 0x0 0x0 0x0 0x1570005 0x0 0x0 0x0 0x0 0x0 0x15e0005 0x0 0x0 0x0 0x0 0x0 0x1620005 0x0 0x0 0x0 0x0 0x0 0x16b0005 0x0 0x0 0x0 0x0 0x0 0x16f0005 0x0 0x0 0x0 0x0 0x0 oops 22 2 com/google/common/cache/LocalCache$Segment 8 com/google/common/cache/CacheBuilder$3 14 com/google/common/cache/LocalCache$Segment 24 com/google/common/cache/LocalCache$Segment 30 java/util/concurrent/atomic/AtomicReferenceArray 36 java/util/concurrent/atomic/AtomicReferenceArray 42 com/google/common/cache/LocalCache$StrongAccessEntry 44 com/google/common/cache/LocalCache$StrongEntry 52 com/google/common/cache/LocalCache$StrongAccessEntry 54 com/google/common/cache/LocalCache$StrongEntry 58 com/google/common/cache/LocalCache$StrongAccessEntry 60 com/google/common/cache/LocalCache$StrongEntry 72 com/google/common/base/Equivalence$Equals 82 com/google/common/cache/LocalCache$StrongAccessEntry 84 com/google/common/cache/LocalCache$StrongEntry 88 com/google/common/cache/LocalCache$LoadingValueReference 106 com/google/common/cache/LocalCache$LoadingValueReference 129 com/google/common/cache/LocalCache$Segment 135 com/google/common/cache/LocalCache$Segment 141 com/google/common/cache/LocalCache$Segment 147 com/google/common/cache/LocalCache$Segment 173 com/google/common/cache/LocalCache$StrongAccessEntry
+ciMethodData com/google/common/cache/LocalCache$Segment evictEntries ()V 2 8761 orig 264 8 177 4 84 0 0 0 0 88 82 177 26 0 0 0 0 192 2 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 201 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 14 0 2 0 0 0 120 1 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 47 0x40005 0x0 0x1e48f780 0x2039 0x0 0x0 0x70007 0x1fc7 0x20 0x74 0xc0005 0x0 0x1e48b950 0x1fc6 0x0 0x0 0x190007 0x1fc5 0xf8 0x0 0x1d0005 0x0 0x0 0x0 0x0 0x0 0x240005 0x0 0x0 0x0 0x0 0x0 0x2c0005 0x0 0x0 0x0 0x0 0x0 0x2f0007 0x0 0x30 0x0 0x360002 0x0 0x3a0003 0x0 0xffffffffffffff20 oops 2 2 com/google/common/cache/LocalCache 12 com/google/common/cache/LocalCache$Segment
+ciMethodData com/google/common/cache/LocalCache$Segment recordWrite (Lcom/google/common/cache/LocalCache$ReferenceEntry;IJ)V 2 8870 orig 264 8 177 4 84 0 0 0 0 80 76 177 26 0 0 0 0 248 2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 49 5 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 29 0 2 0 0 0 144 1 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 50 0x10005 0x0 0x1e48b950 0x20a6 0x0 0x0 0x120005 0x0 0x1e48f780 0x20a7 0x0 0x0 0x150007 0x20aa 0x50 0x0 0x1a0005 0x0 0x0 0x0 0x0 0x0 0x230005 0x0 0x1e48f780 0x20a9 0x0 0x0 0x260007 0x20a9 0x50 0x0 0x2b0005 0x0 0x0 0x0 0x0 0x0 0x350005 0x0 0x20b27ac0 0x2033 0x20b27a10 0x74 0x400005 0x0 0x20b27a10 0x20aa 0x0 0x0 oops 6 2 com/google/common/cache/LocalCache$Segment 8 com/google/common/cache/LocalCache 24 com/google/common/cache/LocalCache 40 com/google/common/cache/LocalCache$AccessQueue 42 com/google/common/cache/LocalCache$2 46 com/google/common/cache/LocalCache$2
+ciMethodData com/google/common/cache/LocalCache$Segment setValue (Lcom/google/common/cache/LocalCache$ReferenceEntry;Ljava/lang/Object;Ljava/lang/Object;J)V 2 8899 orig 264 8 177 4 84 0 0 0 0 208 51 177 26 0 0 0 0 216 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 25 6 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 104 1 0 0 255 255 255 255 5 240 1 0 0 0 0 0 data 45 0x1f005 0x1a 0x1e48c690 0x2032 0x1e48c740 0x7b 0x110005 0x0 0x1f5d4ab0 0x20c6 0x0 0x0 0x1a0007 0x0 0x38 0x20c8 0x1e0003 0x20c8 0x18 0x240002 0x20c8 0x330005 0x0 0x1f5d4b60 0x2052 0x1f5d4c10 0x74 0x3b0005 0x1a 0x1e48c690 0x2033 0x1e48c740 0x7b 0x460005 0x0 0x1e48b950 0x20c8 0x0 0x0 0x4c0005 0x1 0x1e48bb80 0x166a 0x1f5d4cc0 0xa5c oops 10 2 com/google/common/cache/LocalCache$StrongAccessEntry 4 com/google/common/cache/LocalCache$StrongEntry 8 com/google/common/cache/CacheBuilder$OneWeigher 23 com/google/common/cache/LocalCache$Strength$1 25 com/google/common/cache/LocalCache$Strength$3 29 com/google/common/cache/LocalCache$StrongAccessEntry 31 com/google/common/cache/LocalCache$StrongEntry 35 com/google/common/cache/LocalCache$Segment 41 com/google/common/cache/LocalCache$LoadingValueReference 43 com/google/common/cache/LocalCache$StrongValueReference
+ciMethodData com/google/common/cache/LocalCache$AccessQueue offer (Ljava/lang/Object;)Z 2 8689 orig 264 8 177 4 84 0 0 0 0 72 161 177 26 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 137 255 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 96 0 0 0 255 255 255 255 4 0 2 0 0 0 0 0 data 12 0x20004 0x0 0x1e48c690 0x1ff0 0x0 0x0 0x50005 0x95 0x20b27ac0 0x1f5b 0x0 0x0 oops 2 2 com/google/common/cache/LocalCache$StrongAccessEntry 8 com/google/common/cache/LocalCache$AccessQueue
+ciMethodData com/google/common/cache/LocalCache$AccessQueue offer (Lcom/google/common/cache/LocalCache$ReferenceEntry;)Z 2 8191 orig 264 8 177 4 84 0 0 0 0 176 152 177 26 0 0 0 0 16 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 249 239 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 192 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 24 0x10005 0x0 0x1e48c690 0x1e00 0x0 0x0 0x70005 0x0 0x1e48c690 0x1e00 0x0 0x0 0xc0002 0x1dff 0x130005 0x0 0x1cd1bee0 0x1e01 0x0 0x0 0x190002 0x1dff 0x210002 0x1e01 oops 3 2 com/google/common/cache/LocalCache$StrongAccessEntry 8 com/google/common/cache/LocalCache$StrongAccessEntry 16 com/google/common/cache/LocalCache$AccessQueue$1
+ciMethodData com/google/common/cache/CacheBuilder$OneWeigher weigh (Ljava/lang/Object;Ljava/lang/Object;)I 2 8321 orig 264 8 177 4 84 0 0 0 0 192 182 176 26 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData com/google/common/cache/LocalCache$Segment expand ()V 2 20789 orig 264 8 177 4 84 0 0 0 0 112 98 177 26 0 0 0 0 80 6 0 0 176 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 207 6 0 0 1 4 0 0 49 83 2 0 0 0 0 0 0 0 0 0 2 0 0 0 3 0 25 0 2 0 0 0 8 5 0 0 255 255 255 255 5 0 6 0 0 0 0 0 data 161 0x60005 0x29 0x1e48c5e0 0x57 0x0 0x0 0xd0007 0x80 0x20 0x0 0x1a0005 0x0 0x1e48b950 0x80 0x0 0x0 0x220005 0x29 0x1e48c5e0 0x57 0x0 0x0 0x2e0005 0x29 0x1e48c5e0 0x57 0x0 0x0 0x3b0007 0x80 0x428 0x3794 0x410005 0xa7c 0x1e48c5e0 0x2d18 0x0 0x0 0x440104 0x0 0x1e48c690 0x1d43 0x1e48c740 0x8c 0x4b0007 0x19a6 0x390 0x1dee 0x500005 0x1f 0x1e48c690 0x1d43 0x1e48c740 0x8c 0x590005 0x1f 0x1e48c690 0x1d43 0x1e48c740 0x8c 0x650007 0x986 0x68 0x1468 0x6e0005 0x3d4 0x1e48c5e0 0x1094 0x0 0x0 0x710003 0x1468 0x2c0 0x820007 0x986 0xb8 0xc0c 0x870005 0x13 0x1e48c690 0xbc5 0x1e48c740 0x34 0x950007 0x5ff 0x20 0x60d 0xa20005 0x13 0x1e48c690 0xbc5 0x1e48c740 0x34 0xa90003 0xc0c 0xffffffffffffff60 0xb20005 0x1da 0x1e48c5e0 0x7ac 0x0 0x0 0xbd0007 0x986 0x1c0 0x6c6 0xc20005 0x7 0x1e48c690 0x6a3 0x1e48c740 0x1c 0xd00005 0x15f 0x1e48c5e0 0x567 0x0 0x0 0xd30104 0x0 0x1e48c690 0x15b 0x1e48c740 0x4 0xdd0005 0x0 0x1e48b950 0x6c6 0x0 0x0 0xe40007 0x0 0x68 0x6c6 0xed0005 0x15f 0x1e48c5e0 0x567 0x0 0x0 0xf00003 0x6c6 0x48 0xf60005 0x0 0x0 0x0 0x0 0x0 0xfe0005 0x7 0x1e48c690 0x6a3 0x1e48c740 0x1c 0x1050003 0x6c6 0xfffffffffffffe58 0x10b0003 0x3794 0xfffffffffffffbf0 oops 26 2 java/util/concurrent/atomic/AtomicReferenceArray 12 com/google/common/cache/LocalCache$Segment 18 java/util/concurrent/atomic/AtomicReferenceArray 24 java/util/concurrent/atomic/AtomicReferenceArray 34 java/util/concurrent/atomic/AtomicReferenceArray 40 com/google/common/cache/LocalCache$StrongAccessEntry 42 com/google/common/cache/LocalCache$StrongEntry 50 com/google/common/cache/LocalCache$StrongAccessEntry 52 com/google/common/cache/LocalCache$StrongEntry 56 com/google/common/cache/LocalCache$StrongAccessEntry 58 com/google/common/cache/LocalCache$StrongEntry 66 java/util/concurrent/atomic/AtomicReferenceArray 79 com/google/common/cache/LocalCache$StrongAccessEntry 81 com/google/common/cache/LocalCache$StrongEntry 89 com/google/common/cache/LocalCache$StrongAccessEntry 91 com/google/common/cache/LocalCache$StrongEntry 98 java/util/concurrent/atomic/AtomicReferenceArray 108 com/google/common/cache/LocalCache$StrongAccessEntry 110 com/google/common/cache/LocalCache$StrongEntry 114 java/util/concurrent/atomic/AtomicReferenceArray 120 com/google/common/cache/LocalCache$StrongAccessEntry 122 com/google/common/cache/LocalCache$StrongEntry 126 com/google/common/cache/LocalCache$Segment 136 java/util/concurrent/atomic/AtomicReferenceArray 151 com/google/common/cache/LocalCache$StrongAccessEntry 153 com/google/common/cache/LocalCache$StrongEntry
+ciMethodData com/google/common/base/Equivalence$Equals doEquivalent (Ljava/lang/Object;Ljava/lang/Object;)Z 2 9085 orig 264 8 177 4 84 0 0 0 0 176 218 255 20 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 233 11 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 6 0x20005 0x95 0x20f4760 0x2097 0x1c8df2a0 0x51 oops 2 2 java/lang/String 4 org/gradle/api/tasks/util/internal/CachingPatternSpecFactory$SpecKey
+ciMethodData com/google/common/cache/LocalCache$Strength$3 referenceValue (Lcom/google/common/cache/LocalCache$Segment;Lcom/google/common/cache/LocalCache$ReferenceEntry;Ljava/lang/Object;I)Lcom/google/common/cache/LocalCache$ValueReference; 1 258 orig 264 8 177 4 84 0 0 0 0 0 50 175 26 0 0 0 0 152 1 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 12 0 2 0 0 0 88 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 11 0x30007 0x0 0x48 0x0 0x100002 0x0 0x130003 0x0 0x28 0x220002 0x0 oops 0
+ciMethodData com/google/common/cache/LocalCache$WeakValueReference <init> (Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;Lcom/google/common/cache/LocalCache$ReferenceEntry;)V 1 279 orig 264 8 177 4 84 0 0 0 0 232 91 175 26 0 0 0 0 72 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 2 0x30002 0x0 oops 0
+ciMethod com/google/common/cache/RemovalNotification getCause ()Lcom/google/common/cache/RemovalCause; 1025 1 128 0 -1
+ciMethodData com/google/common/cache/LocalCache$AccessQueue contains (Ljava/lang/Object;)Z 1 552 orig 264 8 177 4 84 0 0 0 0 24 156 177 26 0 0 0 0 232 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 1 0 0 25 9 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 152 0 0 0 255 255 255 255 4 0 1 0 0 0 0 0 data 19 0x10004 0x0 0x1e48c690 0x123 0x0 0x0 0x60005 0x0 0x1e48c690 0x123 0x0 0x0 0xe0007 0x0 0x38 0x123 0x120003 0x123 0x18 oops 2 2 com/google/common/cache/LocalCache$StrongAccessEntry 8 com/google/common/cache/LocalCache$StrongAccessEntry
+ciMethodData org/gradle/api/internal/changedetection/state/LoggingEvictionListener onRemoval (Lcom/google/common/cache/RemovalNotification;)V 1 3970 orig 264 8 177 4 84 0 0 0 0 176 183 183 26 0 0 0 0 96 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 2 0 0 17 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 2 0 0 0 16 2 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 66 0x10005 0x2 0x0 0x0 0x0 0x0 0x70007 0x2 0x1e0 0x0 0x130007 0x0 0x1c0 0x0 0x280004 0x0 0x0 0x0 0x0 0x0 0x2f0005 0x0 0x0 0x0 0x0 0x0 0x340002 0x0 0x370004 0x0 0x0 0x0 0x0 0x0 0x3e0002 0x0 0x410004 0x0 0x0 0x0 0x0 0x0 0x480005 0x0 0x0 0x0 0x0 0x0 0x4d0004 0x0 0x0 0x0 0x0 0x0 0x520004 0x0 0x0 0x0 0x0 0x0 0x530005 0x0 0x0 0x0 0x0 0x0 oops 0
+instanceKlass com/android/builder/testing/ConnectedDeviceProvider$1
+instanceKlass org/gradle/internal/remote/internal/inet/SocketConnection$1
+instanceKlass com/google/common/cache/LocalCache$WriteThroughEntry
+instanceKlass com/google/common/cache/LocalCache$HashIterator
+instanceKlass org/gradle/internal/work/DefaultWorkerLeaseService$1
+instanceKlass org/gradle/workers/internal/WorkerDaemonClientsManager$StopSessionScopedWorkers$1
+instanceKlass org/gradle/util/DisconnectableInputStream$1
+instanceKlass org/gradle/util/DisconnectableInputStream$ThreadExecuter
+instanceKlass com/google/protobuf/ByteString$CodedBuilder
+instanceKlass com/google/protobuf/Utf8$Processor
+instanceKlass com/google/protobuf/Utf8
+instanceKlass com/google/protobuf/WireFormat
+instanceKlass com/google/protobuf/UnsafeUtil$1
+instanceKlass com/google/protobuf/UnsafeUtil$MemoryAccessor
+instanceKlass com/google/protobuf/UnsafeUtil
+instanceKlass com/google/protobuf/ByteOutput
+instanceKlass com/google/wireless/android/play/playlog/proto/ClientAnalytics$LogEventKeyValuesOrBuilder
+instanceKlass com/google/protobuf/ByteString$ArraysByteArrayCopier
+instanceKlass com/google/protobuf/ByteString$ByteIterator
+instanceKlass com/google/protobuf/ByteString$ByteArrayCopier
+instanceKlass com/google/protobuf/ByteString
+instanceKlass com/google/protobuf/SmallSortedMap$EmptySet$2
+instanceKlass com/google/protobuf/SmallSortedMap$EmptySet$1
+instanceKlass com/google/protobuf/SmallSortedMap$EmptySet
+instanceKlass com/google/protobuf/LazyFieldLite
+instanceKlass com/google/protobuf/FieldSet
+instanceKlass com/google/wireless/android/play/playlog/proto/ClientAnalytics$ExperimentIdsOrBuilder
+instanceKlass com/google/wireless/android/play/playlog/proto/ClientAnalytics$AppUsage1pLogEventOrBuilder
+instanceKlass com/google/wireless/android/play/playlog/proto/ClientAnalytics$ActiveExperimentsOrBuilder
+instanceKlass com/google/wireless/android/play/playlog/proto/ClientAnalytics$NetworkConnectionInfoOrBuilder
+instanceKlass com/google/wireless/android/play/playlog/proto/ClientAnalytics$LogEventOrBuilder
+instanceKlass com/google/protobuf/GeneratedMessageV3$ExtendableMessageOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioEvent$EventKind$1
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioEvent$EventCategory$1
+instanceKlass com/google/wireless/android/sdk/stats/ConnectionAssistantEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidProfilerDbStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LldbSessionEndDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LldbSessionStartDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/EmulatorPerformanceStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AppLinksAssistantEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/FirebaseContextDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/StudioPerformanceStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/OomDialogEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/KotlinSupportOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LayoutInspectorEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/ApkDebugProjectOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/GradleSyncStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/ApkAnalyzerStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidProfilerEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AdbAssistantStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LayoutEditorEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/StudioProjectChangeOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LldbPerformanceStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/JvmDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/MachineDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/UIActionStatsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/TestRecorderDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/GfxTracingDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/FirebaseErrorDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/LLDBFrontendDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/EmulatorHostOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/HypervisorOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/EmulatorUiEventOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/TestRunOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/EmulatorDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/MetaMetricsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/InstantRunOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/GradleBuildDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/StudioCrashOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/DeviceInfoOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/ProductDetailsOrBuilder
+instanceKlass com/google/wireless/android/sdk/stats/AndroidStudioEventOrBuilder
+instanceKlass com/google/common/cache/LocalCache$WriteThroughEntry
+instanceKlass com/google/common/cache/LocalCache$HashIterator
+instanceKlass org/gradle/cache/internal/DefaultMultiProcessSafePersistentIndexedCache$4
+instanceKlass com/android/dx/rop/type/Type
+instanceKlass com/android/dx/rop/cst/Constant
+instanceKlass com/android/dx/rop/code/RegisterSpec
+instanceKlass com/android/dx/rop/type/TypeBearer
+instanceKlass com/android/dx/util/ToHuman
+instanceKlass com/android/dx/rop/type/Prototype
+instanceKlass com/android/dx/cf/direct/ClassPathOpener$Consumer
+instanceKlass com/android/dx/cf/direct/ClassPathOpener$FileNameFilter
+instanceKlass com/android/dx/cf/direct/AttributeFactory
+instanceKlass com/android/dx/command/dexer/Main
+instanceKlass com/android/builder/internal/compiler/PreProcessCache$Key
+instanceKlass com/android/builder/internal/compiler/PreProcessCache$BaseItem
+instanceKlass com/android/builder/internal/compiler/PreProcessCache
+instanceKlass com/android/build/gradle/internal/workeractions/WorkerActionServiceRegistry$shutdownAllRegisteredServices$1$1
+instanceKlass com/android/build/gradle/BasePlugin$1$$Lambda$847
+instanceKlass com/android/build/gradle/internal/BuildSessionImpl$$Lambda$846
+instanceKlass org/gradle/internal/logging/text/AbstractStyledTextOutput$StyleOverrideTextOutput
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskExecutionPlan$7
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskExecutionPlan$12
+instanceKlass com/android/ddmlib/NullOutputReceiver
+instanceKlass com/android/ddmlib/utils/ArrayHelper
+instanceKlass com/android/ddmlib/utils/FilePermissionUtil$1
+instanceKlass java/nio/file/attribute/PosixFilePermissions
+instanceKlass java/nio/file/attribute/PosixFileAttributes
+instanceKlass com/android/ddmlib/utils/FilePermissionUtil
+instanceKlass com/android/ddmlib/SyncService$NullSyncProgressMonitor
+instanceKlass com/android/ddmlib/SyncService$ISyncProgressMonitor
+instanceKlass com/android/ddmlib/SyncService
+instanceKlass com/android/utils/FileUtils$$Lambda$845
+instanceKlass com/android/ide/common/build/SplitOutputMatcher$$Lambda$844
+instanceKlass com/android/ide/common/build/SplitOutputMatcher$$Lambda$843
+instanceKlass com/android/ide/common/build/SplitOutputMatcher$$Lambda$842
+instanceKlass com/android/ide/common/build/SplitOutputMatcher
+instanceKlass com/android/builder/testing/api/DeviceConfig$Builder$1
+instanceKlass com/android/builder/testing/api/DeviceConfig$Builder$Values
+instanceKlass com/android/builder/testing/api/DeviceConfig
+instanceKlass com/android/builder/testing/api/DeviceConfig$Builder
+instanceKlass com/android/builder/testing/api/DeviceConfigProviderImpl
+instanceKlass com/android/builder/internal/InstallUtils
+instanceKlass com/android/builder/testing/api/DeviceConnector
+instanceKlass com/android/ddmlib/MultiLineReceiver
+instanceKlass com/android/ddmlib/EmulatorConsole
+instanceKlass com/android/ddmlib/DeviceMonitor$DeviceListComparisonResult
+instanceKlass com/android/ddmlib/BatteryFetcher
+instanceKlass com/android/ddmlib/PropertyFetcher
+instanceKlass com/android/ddmlib/IShellOutputReceiver
+instanceKlass com/android/ddmlib/Device
+instanceKlass com/android/ddmlib/AdbHelper$AdbResponse
+instanceKlass com/android/ddmlib/AdbHelper
+instanceKlass com/android/ddmlib/DeviceMonitor$DeviceListUpdateListener
+instanceKlass com/android/ddmlib/DeviceMonitor$DeviceListMonitorTask
+instanceKlass com/google/common/collect/Queues
+instanceKlass com/android/ddmlib/utils/DebuggerPorts
+instanceKlass com/android/ddmlib/DeviceMonitor$DeviceListMonitorTask$UpdateListener
+instanceKlass com/android/ddmlib/DeviceMonitor
+instanceKlass com/android/ddmlib/ClientTracker
+instanceKlass com/android/ddmlib/AndroidDebugBridge$$Lambda$841
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/ProcessImpl$2
+instanceKlass java/lang/ProcessBuilder
+instanceKlass com/android/ddmlib/AndroidDebugBridge$1
+instanceKlass com/android/ddmlib/HandleNativeHeap$NativeBuffer
+instanceKlass com/android/ddmlib/jdwp/JdwpInterceptor
+instanceKlass com/android/ddmlib/jdwp/JdwpExtension
+instanceKlass com/android/ddmlib/jdwp/JdwpAgent
+instanceKlass java/net/InetAddress$CacheEntry
+instanceKlass sun/net/InetAddressCachePolicy$2
+instanceKlass sun/net/InetAddressCachePolicy$1
+instanceKlass sun/net/InetAddressCachePolicy
+instanceKlass com/android/ddmlib/AdbVersion
+instanceKlass com/android/ddmlib/IDevice
+instanceKlass com/android/ddmlib/AndroidDebugBridge
+instanceKlass com/android/ddmlib/Log
+instanceKlass com/android/builder/testing/ConnectedDeviceProvider$LogAdapter
+instanceKlass com/android/ddmlib/DdmPreferences
+instanceKlass org/gradle/api/internal/changedetection/changes/ShortCircuitTaskArtifactStateRepository$RerunTaskArtifactState
+instanceKlass java/util/Collections$ReverseComparator
+instanceKlass java/util/Collections$CheckedMap
+instanceKlass java/util/Collections$CheckedCollection
+instanceKlass kotlin/Unit
+instanceKlass com/android/build/gradle/internal/tasks/KnownFilesSaveData$$Lambda$840
+instanceKlass sun/misc/JavaNetHttpCookieAccess
+instanceKlass sun/misc/JavaAWTAccess
+instanceKlass sun/misc/JavaIOAccess
+instanceKlass com/google/common/base/Throwables
+instanceKlass com/android/build/gradle/internal/tasks/KnownFilesSaveData
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$839
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$838
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$837
+instanceKlass java/util/stream/Streams$2
+instanceKlass java/util/stream/Streams
+instanceKlass java/util/stream/Streams$ConcatSpliterator
+instanceKlass com/android/apksig/DefaultApkSignerEngine$OutputApkSigningBlockRequestImpl
+instanceKlass com/android/apksig/internal/apk/v2/V2SchemeSigner$V2SignatureSchemeBlock$Signer
+instanceKlass com/android/apksig/internal/apk/v2/V2SchemeSigner$V2SignatureSchemeBlock$SignedData
+instanceKlass com/android/apksig/internal/apk/v2/V2SchemeSigner$$Lambda$836
+instanceKlass java/security/spec/MGF1ParameterSpec
+instanceKlass java/security/spec/PSSParameterSpec
+instanceKlass com/android/apksig/internal/apk/v2/V2SchemeSigner
+instanceKlass com/android/apksig/internal/apk/v2/V2SchemeSigner$SignerConfig
+instanceKlass com/android/apksig/internal/util/ByteBufferDataSource
+instanceKlass com/android/apksig/util/DataSources
+instanceKlass com/android/apkzlib/zip/ExtraField$AlignmentSegment
+instanceKlass com/android/apkzlib/zip/ZFile$$Lambda$835
+instanceKlass com/android/apkzlib/zip/ZFile$$Lambda$834
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/apkzlib/zip/ZFile$$Lambda$833
+instanceKlass com/android/apkzlib/zip/ZFile$$Lambda$832
+instanceKlass com/android/apkzlib/zip/ExtraField$Segment
+instanceKlass com/android/apksig/DefaultApkSignerEngine$OutputJarSignatureRequestImpl
+instanceKlass com/android/apksig/ApkSignerEngine$OutputJarSignatureRequest$JarEntry
+instanceKlass com/android/apksig/internal/asn1/Asn1DerEncoder$JavaToDerConverter
+instanceKlass com/android/apksig/internal/asn1/Asn1DerEncoder$$Lambda$831
+instanceKlass com/android/apksig/internal/asn1/ber/BerEncoding$1
+instanceKlass com/android/apksig/internal/asn1/ber/BerEncoding
+instanceKlass com/android/apksig/internal/asn1/Asn1DerEncoder$AnnotatedField
+instanceKlass com/android/apksig/internal/asn1/Asn1Field
+instanceKlass com/android/apksig/internal/asn1/Asn1DerEncoder$1
+instanceKlass com/android/apksig/internal/asn1/Asn1Class
+instanceKlass com/android/apksig/internal/asn1/Asn1DerEncoder
+instanceKlass com/android/apksig/internal/pkcs7/ContentInfo
+instanceKlass com/android/apksig/internal/pkcs7/EncapsulatedContentInfo
+instanceKlass com/android/apksig/internal/pkcs7/SignedData
+instanceKlass com/android/apksig/internal/pkcs7/IssuerAndSerialNumber
+instanceKlass com/android/apksig/internal/pkcs7/SignerIdentifier
+instanceKlass com/android/apksig/internal/pkcs7/SignerInfo
+instanceKlass sun/security/rsa/RSACore$BlindingRandomPair
+instanceKlass sun/security/jca/JCAUtil$CachedSecureRandomHolder
+instanceKlass sun/security/jca/JCAUtil
+instanceKlass sun/security/rsa/RSACore$BlindingParameters
+instanceKlass com/android/apksig/internal/util/Pair
+instanceKlass com/android/apksig/internal/pkcs7/AlgorithmIdentifier
+instanceKlass com/android/apksig/internal/jar/SignatureFileWriter
+instanceKlass com/android/apksig/internal/apk/v1/V1SchemeSigner$OutputManifestFile
+instanceKlass com/android/apksig/internal/apk/v1/V1SchemeSigner$1
+instanceKlass com/android/apksig/internal/jar/ManifestWriter
+instanceKlass com/android/apksig/internal/util/OutputStreamDataSink
+instanceKlass com/android/apksig/DefaultApkSignerEngine$GetJarEntryDataRequest
+instanceKlass com/android/apkzlib/sign/SigningExtension$1$$Lambda$830
+instanceKlass com/android/apkzlib/sign/ManifestGenerationExtension$1$$Lambda$829
+instanceKlass com/android/build/gradle/internal/incremental/InstantRunBuildContext$Artifact
+instanceKlass com/android/apksig/internal/util/MessageDigestSink
+instanceKlass com/android/apksig/util/ReadableDataSink
+instanceKlass com/android/apksig/util/DataSink
+instanceKlass com/android/apksig/util/DataSinks
+instanceKlass com/android/apksig/DefaultApkSignerEngine$GetJarEntryDataDigestRequest
+instanceKlass com/android/apkzlib/sign/SigningExtension$1$$Lambda$828
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$827
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$826
+instanceKlass java/util/function/Predicate$$Lambda$825
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$824
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$823
+instanceKlass com/android/builder/internal/packaging/PackagedFileUpdates
+instanceKlass com/google/common/base/Predicates$CompositionPredicate
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$822
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$821
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$820
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$819
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$818
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$817
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$816
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$815
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$1
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$814
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$813
+instanceKlass com/android/builder/internal/packaging/PackagedFileUpdate
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$812
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$Bucket
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$811
+instanceKlass com/android/builder/internal/packaging/DexFileNameSupplier
+instanceKlass java/util/stream/SortedOps$RefSortingSink$$Lambda$810
+instanceKlass java/util/stream/Collectors$$Lambda$809
+instanceKlass java/util/stream/Collectors$$Lambda$808
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$807
+instanceKlass java/util/Comparator$$Lambda$806
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$DexNameComparator
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$805
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$804
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$803
+instanceKlass com/android/builder/files/NativeLibraryAbiPredicate
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager
+instanceKlass com/android/apksig/internal/zip/ZipUtils
+instanceKlass com/android/apksig/apk/ApkUtils
+instanceKlass com/android/apksig/ApkVerifier
+instanceKlass com/android/apkzlib/sign/ZFileDataSource
+instanceKlass com/android/apksig/ApkVerifier$Builder
+instanceKlass com/android/apksig/internal/apk/v1/V1SchemeSigner$SignerConfig
+instanceKlass com/android/apksig/internal/apk/v1/DigestAlgorithm$StrengthComparator
+instanceKlass com/android/apksig/internal/asn1/Asn1OpaqueObject
+instanceKlass com/android/apksig/internal/apk/v1/V1SchemeSigner
+instanceKlass com/android/apksig/ApkSignerEngine$OutputApkSigningBlockRequest2
+instanceKlass com/android/apksig/ApkSignerEngine$OutputApkSigningBlockRequest
+instanceKlass com/android/apksig/ApkSignerEngine$OutputJarSignatureRequest
+instanceKlass com/android/apksig/ApkSignerEngine$InspectJarEntryRequest
+instanceKlass com/android/apksig/DefaultApkSignerEngine
+instanceKlass com/android/apksig/DefaultApkSignerEngine$Builder
+instanceKlass com/android/apksig/DefaultApkSignerEngine$SignerConfig
+instanceKlass com/android/apksig/DefaultApkSignerEngine$SignerConfig$Builder
+instanceKlass com/android/apksig/util/DataSource
+instanceKlass com/android/apksig/ApkSignerEngine
+instanceKlass com/android/apkzlib/sign/SigningExtension
+instanceKlass com/android/apkzlib/sign/ManifestGenerationExtension$$Lambda$802
+instanceKlass com/android/apkzlib/sign/ManifestGenerationExtension
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/apkzlib/zip/AlignmentRules$$Lambda$801
+instanceKlass com/android/apkzlib/zfile/ZFiles
+instanceKlass com/android/apkzlib/zfile/ApkZFileCreator$1
+instanceKlass com/android/apkzlib/zip/AlignmentRules$$Lambda$800
+instanceKlass com/android/apkzlib/zfile/ApkZFileCreator
+instanceKlass com/android/apkzlib/zfile/ApkCreator
+instanceKlass com/android/apkzlib/zfile/ApkZFileCreatorFactory
+instanceKlass com/android/build/gradle/AndroidGradleOptions
+instanceKlass com/android/apkzlib/zfile/ApkCreatorFactory
+instanceKlass com/android/build/gradle/internal/packaging/ApkCreatorFactories
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager
+instanceKlass com/android/apkzlib/zfile/ApkCreatorFactory$CreationData
+instanceKlass com/android/builder/packaging/PackagingUtils$$Lambda$799
+instanceKlass com/android/builder/packaging/PackagingUtils
+instanceKlass com/android/ide/common/signing/CertificateInfo
+instanceKlass java/security/KeyStore$PrivateKeyEntry
+instanceKlass java/security/KeyStore$Entry
+instanceKlass sun/security/pkcs/EncryptedPrivateKeyInfo
+instanceKlass sun/security/provider/KeyProtector
+instanceKlass sun/security/provider/JavaKeyStore$TrustedCertEntry
+instanceKlass java/security/KeyStore$PasswordProtection
+instanceKlass sun/security/provider/JavaKeyStore$KeyEntry
+instanceKlass sun/security/provider/KeyStoreDelegator$1
+instanceKlass java/security/KeyStoreSpi
+instanceKlass com/android/build/gradle/internal/packaging/IncrementalPackagerBuilder
+instanceKlass com/android/builder/files/IncrementalRelativeFileSets$$Lambda$798
+instanceKlass com/google/common/base/Functions$ConstantFunction
+instanceKlass com/google/common/base/Functions
+instanceKlass com/android/builder/files/IncrementalRelativeFileSets
+instanceKlass com/android/build/gradle/internal/scope/BuildElements$ActionItem
+instanceKlass com/android/build/gradle/internal/scope/BuildElements$ExecutorBasedScheduler$transform$$inlined$forEach$lambda$1
+instanceKlass com/android/build/gradle/internal/scope/BuildElementActionScheduler
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$797
+instanceKlass kotlin/sequences/FilteringSequence$iterator$1
+instanceKlass kotlin/sequences/TransformingSequence$iterator$1
+instanceKlass kotlin/sequences/TransformingSequence
+instanceKlass kotlin/sequences/FilteringSequence
+instanceKlass kotlin/sequences/SequencesKt__SequencesKt
+instanceKlass kotlin/collections/CollectionsKt___CollectionsKt$asSequence$$inlined$Sequence$1
+instanceKlass kotlin/sequences/Sequence
+instanceKlass com/google/gson/internal/LinkedTreeMap$Node
+instanceKlass com/google/gson/internal/LinkedTreeMap$1
+instanceKlass com/android/ide/common/build/ApkInfo$DefaultApkInfo
+instanceKlass kotlin/text/StringsKt__IndentKt
+instanceKlass com/google/gson/internal/ConstructorConstructor$13
+instanceKlass java/util/concurrent/ConcurrentNavigableMap
+instanceKlass com/google/gson/internal/UnsafeAllocator
+instanceKlass com/google/gson/internal/ConstructorConstructor$14
+instanceKlass com/google/gson/internal/$Gson$Types$WildcardTypeImpl
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$796
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$795
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$794
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$793
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$792
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$791
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$790
+instanceKlass com/android/builder/utils/SynchronizedFile$$Lambda$789
+instanceKlass com/android/build/gradle/internal/tasks/ValidateSigningTask$createDefaultDebugKeystoreIfNeeded$1
+instanceKlass com/android/apkzlib/zip/ZFile$$Lambda$788
+instanceKlass com/android/apkzlib/zip/ZFile$$Lambda$787
+instanceKlass com/android/apkzlib/zip/Eocd$$Lambda$786
+instanceKlass com/android/apkzlib/zip/ZFile$$Lambda$785
+instanceKlass com/android/apkzlib/zip/ZFile$$Lambda$784
+instanceKlass java/util/TreeMap$NavigableSubMap$SubMapIterator
+instanceKlass com/android/apkzlib/zip/FileUseMap$1
+instanceKlass com/android/apkzlib/zip/ZFile$3
+instanceKlass com/android/apkzlib/zip/ZFile$$Lambda$783
+instanceKlass com/google/common/util/concurrent/Futures$CallbackListener
+instanceKlass com/android/apkzlib/zip/ZFile$2
+instanceKlass com/android/apkzlib/zip/CompressionResult
+instanceKlass com/android/apkzlib/zip/compress/ExecutorCompressor$$Lambda$782
+instanceKlass com/google/common/primitives/UnsignedInts
+instanceKlass com/google/common/collect/Lists$ReverseList$1
+instanceKlass com/android/builder/merge/MergeOutputWriters$2
+instanceKlass org/apache/commons/codec/binary/BaseNCodec
+instanceKlass org/apache/commons/codec/BinaryDecoder
+instanceKlass org/apache/commons/codec/Decoder
+instanceKlass org/apache/commons/codec/BinaryEncoder
+instanceKlass org/apache/commons/codec/Encoder
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$781
+instanceKlass com/google/common/collect/ImmutableList$SerializedForm
+instanceKlass com/google/common/collect/ImmutableSet$SerializedForm
+instanceKlass com/google/common/collect/ImmutableMap$SerializedForm
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$780
+instanceKlass com/android/builder/merge/IncrementalFileMergerState$Builder$$Lambda$779
+instanceKlass com/android/builder/merge/StreamMergeAlgorithms$$Lambda$778
+instanceKlass com/android/builder/merge/StreamMergeAlgorithms$$Lambda$777
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$2
+instanceKlass com/android/builder/merge/IncrementalFileMergerOutputs$1$$Lambda$776
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$1$$Lambda$775
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$774
+instanceKlass com/android/build/gradle/internal/packaging/ParsedPackagingOptions$$Lambda$773
+instanceKlass com/android/build/gradle/internal/packaging/ParsedPackagingOptions$$Lambda$772
+instanceKlass com/android/build/gradle/internal/packaging/ParsedPackagingOptions$$Lambda$771
+instanceKlass java/util/stream/Streams$RangeIntSpliterator
+instanceKlass java/util/stream/Sink$ChainedInt
+instanceKlass java/util/stream/Sink$OfInt
+instanceKlass java/util/function/IntConsumer
+instanceKlass java/util/stream/StreamSpliterators$WrappingSpliterator$$Lambda$770
+instanceKlass com/android/utils/ImmutableCollectors$$Lambda$769
+instanceKlass com/android/utils/ImmutableCollectors$$Lambda$768
+instanceKlass com/android/utils/ImmutableCollectors$$Lambda$767
+instanceKlass com/android/utils/ImmutableCollectors$$Lambda$766
+instanceKlass com/android/utils/ImmutableCollectors
+instanceKlass com/android/builder/merge/RenameIncrementalFileMergerInput$$Lambda$765
+instanceKlass com/google/common/collect/CollectSpliterators$1WithCharacteristics
+instanceKlass com/google/common/collect/CollectSpliterators
+instanceKlass com/google/common/collect/ImmutableSet$Indexed$$Lambda$764
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInputs$$Lambda$763
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$762
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$761
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$760
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$759
+instanceKlass sun/nio/cs/UTF_8$1
+instanceKlass com/android/builder/files/RelativeFile
+instanceKlass com/android/builder/files/RelativeFiles
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$758
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$757
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$756
+instanceKlass com/android/builder/merge/IncrementalFileMergerState$Builder
+instanceKlass com/android/builder/merge/IncrementalFileMerger
+instanceKlass com/android/builder/merge/DelegateIncrementalFileMergerOutput
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$755
+instanceKlass com/android/builder/merge/IncrementalFileMergerOutputs$1
+instanceKlass com/android/builder/merge/IncrementalFileMergerOutputs
+instanceKlass com/android/builder/merge/MergeOutputWriters$1
+instanceKlass com/android/builder/merge/MergeOutputWriter
+instanceKlass com/android/builder/merge/MergeOutputWriters
+instanceKlass com/android/builder/merge/StreamMergeAlgorithms$$Lambda$754
+instanceKlass com/android/builder/merge/StreamMergeAlgorithms
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$753
+instanceKlass com/android/builder/merge/StreamMergeAlgorithm
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$752
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$751
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$750
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$749
+instanceKlass com/android/builder/merge/DelegateIncrementalFileMergerInput
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$748
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$747
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInput$$Lambda$746
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInput$$Lambda$745
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInput$$Lambda$744
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInput
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInputs$$Lambda$743
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInputs$$Lambda$742
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInputs
+instanceKlass com/android/build/gradle/internal/pipeline/IncrementalFileMergerTransformUtils$$Lambda$741
+instanceKlass com/android/apkzlib/utils/IOExceptionRunnable$$Lambda$740
+instanceKlass com/android/build/gradle/internal/pipeline/IncrementalFileMergerTransformUtils$$Lambda$739
+instanceKlass com/android/build/gradle/internal/pipeline/IncrementalFileMergerTransformUtils
+instanceKlass com/android/builder/merge/IncrementalFileMergerState
+instanceKlass com/android/build/gradle/internal/packaging/ParsedPackagingOptions$$Lambda$738
+instanceKlass com/android/build/gradle/internal/packaging/ParsedPackagingOptions$$Lambda$737
+instanceKlass com/android/build/gradle/internal/packaging/ParsedPackagingOptions$$Lambda$736
+instanceKlass com/android/build/gradle/internal/packaging/ParsedPackagingOptions
+instanceKlass org/gradle/api/internal/tasks/CacheableTaskOutputCompositeFilePropertyElementSpec
+instanceKlass java/util/stream/StreamSpliterators$WrappingSpliterator$$Lambda$735
+instanceKlass java/util/function/BooleanSupplier
+instanceKlass java/util/stream/StreamSpliterators$WrappingSpliterator$$Lambda$734
+instanceKlass java/util/Spliterators$1Adapter
+instanceKlass java/util/stream/StreamSpliterators$AbstractWrappingSpliterator
+instanceKlass java/util/stream/AbstractPipeline$$Lambda$733
+instanceKlass com/android/builder/dexing/DirDexArchive
+instanceKlass com/android/build/gradle/internal/transforms/DexMergerTransform$$Lambda$732
+instanceKlass com/android/build/gradle/internal/transforms/DexMergerTransform$$Lambda$731
+instanceKlass com/android/build/gradle/internal/transforms/DexMergerTransform$$Lambda$730
+instanceKlass com/android/build/gradle/internal/transforms/DexMergerTransform$$Lambda$729
+instanceKlass com/android/build/gradle/internal/transforms/DexMergerTransform$$Lambda$728
+instanceKlass com/android/build/gradle/internal/transforms/DexMergerTransform$$Lambda$727
+instanceKlass com/android/build/gradle/internal/transforms/DexMergerTransform$$Lambda$726
+instanceKlass com/android/build/gradle/internal/transforms/TransformInputUtil
+instanceKlass kotlin/io/CloseableKt
+instanceKlass com/android/tools/r8/dex/DexFileReader$$Lambda$725
+instanceKlass com/android/tools/r8/utils/Pair
+instanceKlass com/android/tools/r8/dex/DexFileReader$$Lambda$724
+instanceKlass com/android/tools/r8/dex/DexFileReader$$Lambda$723
+instanceKlass com/android/tools/r8/dex/DexFileReader$$Lambda$722
+instanceKlass com/android/tools/r8/dex/DexFileReader$AttributesAndAnnotations
+instanceKlass com/android/tools/r8/dex/DexFileReader$$Lambda$721
+instanceKlass com/android/tools/r8/dex/DexFileReader$$Lambda$720
+instanceKlass com/android/tools/r8/dex/DexFileReader$$Lambda$719
+instanceKlass com/android/tools/r8/dex/DexFileReader$MemberAnnotationIterator
+instanceKlass com/android/tools/r8/dex/DexFileReader$$Lambda$718
+instanceKlass com/android/tools/r8/dex/DexFileReader$$Lambda$717
+instanceKlass com/android/tools/r8/dex/DexFileReader$$Lambda$716
+instanceKlass com/android/tools/r8/dex/DexFileReader$AnnotationsDirectory
+instanceKlass com/android/tools/r8/dex/ApplicationReader$ClassReader$$Lambda$715
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2IntMap$FastEntrySet
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/AbstractInt2IntFunction
+instanceKlass com/android/tools/r8/code/InstructionFactory$ShortBufferBytecodeStream
+instanceKlass com/android/tools/r8/code/BytecodeStream
+instanceKlass com/android/tools/r8/code/BaseInstructionFactory
+instanceKlass com/android/tools/r8/dex/DexFileReader$$Lambda$714
+instanceKlass com/android/tools/r8/dex/DexFileReader$$Lambda$711
+instanceKlass com/android/tools/r8/dex/DexFileReader$$Lambda$713
+instanceKlass com/android/tools/r8/dex/DexFileReader$$Lambda$712
+instanceKlass com/android/tools/r8/dex/ApplicationReader$ClassReader$$Lambda$710
+instanceKlass com/android/tools/r8/dex/DexFileReader$$Lambda$709
+instanceKlass com/android/tools/r8/dex/Segment
+instanceKlass com/android/tools/r8/graph/OffsetToObjectMapping
+instanceKlass com/android/tools/r8/dex/DexFileReader
+instanceKlass com/android/tools/r8/com/google/common/io/ByteArrayDataOutput
+instanceKlass com/android/tools/r8/com/google/common/io/ByteArrayDataInput
+instanceKlass com/android/tools/r8/com/google/common/io/ByteStreams
+instanceKlass com/android/tools/r8/dex/BaseFile
+instanceKlass com/android/tools/r8/D8$$Lambda$708
+instanceKlass com/android/tools/r8/D8Command$Builder$$Lambda$707
+instanceKlass com/android/builder/dexing/DexArchiveEntry
+instanceKlass com/android/builder/dexing/NonIncrementalJarDexArchive
+instanceKlass com/android/builder/dexing/DexArchives$$Lambda$706
+instanceKlass com/android/builder/dexing/DexArchive
+instanceKlass com/android/builder/dexing/DexArchives
+instanceKlass com/android/builder/dexing/D8DexArchiveMerger$$Lambda$705
+instanceKlass com/google/common/collect/Streams
+instanceKlass com/android/builder/dexing/D8DexArchiveMerger
+instanceKlass com/android/builder/dexing/DexArchiveMerger
+instanceKlass com/android/build/gradle/internal/transforms/DexMergerTransformCallable$1
+instanceKlass com/google/gson/internal/bind/TypeAdapters$31
+instanceKlass com/google/gson/InstanceCreator
+instanceKlass com/google/gson/JsonDeserializer
+instanceKlass com/google/gson/JsonSerializer
+instanceKlass com/android/builder/utils/FileCache$$Lambda$704
+instanceKlass com/android/builder/utils/FileCache$$Lambda$703
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass com/android/builder/utils/FileCache$$Lambda$702
+instanceKlass com/android/builder/utils/FileCache$$Lambda$701
+instanceKlass com/android/builder/utils/FileCache$$Lambda$700
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderCacheHandler$$Lambda$699
+instanceKlass com/android/builder/utils/ExceptionConsumer
+instanceKlass com/android/tools/r8/com/google/common/io/Closer$SuppressingSuppressor
+instanceKlass com/android/tools/r8/com/google/common/io/Closer$Suppressor
+instanceKlass com/android/tools/r8/com/google/common/io/Closer
+instanceKlass sun/nio/fs/AbstractPath$1
+instanceKlass com/android/tools/r8/DexFilePerClassFileConsumer$ForwardingConsumer
+instanceKlass sun/nio/fs/WindowsPath$1
+instanceKlass com/android/utils/PathUtils
+instanceKlass com/android/builder/dexing/FileBasedClassFileEntry
+instanceKlass com/android/builder/dexing/DirectoryBasedClassFileInput$$Lambda$698
+instanceKlass com/android/builder/dexing/DirectoryBasedClassFileInput$$Lambda$694
+instanceKlass com/android/builder/dexing/DirectoryBasedClassFileInput$$Lambda$695
+instanceKlass com/android/builder/dexing/DirectoryBasedClassFileInput$$Lambda$697
+instanceKlass com/android/builder/dexing/DirectoryBasedClassFileInput$$Lambda$696
+instanceKlass com/android/builder/dexing/DirectoryBasedClassFileInput$$Lambda$689
+instanceKlass com/android/builder/dexing/DirectoryBasedClassFileInput$$Lambda$693
+instanceKlass com/android/builder/dexing/DirectoryBasedClassFileInput$$Lambda$692
