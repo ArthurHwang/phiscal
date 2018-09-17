@@ -1,21 +1,26 @@
-import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { Navigation } from 'react-native-navigation'
+import { Provider } from 'react-redux'
+// import { registerScreens } from './screens'
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>SO GAY</Text>
-      </View>
-    )
-  }
-}
+import Markets from './src/screens/Markets'
+import WatchList from './src/screens/WatchList'
+import News from './src/screens/News'
+import SideDrawer from './src/screens/SideDrawer'
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alinItems: 'center',
-    justifyContent: 'center',
-  },
-})
+import configureStore from './src/store/configureStore'
+
+// Register Screens
+Navigation.registerComponent('phiscal.Markets', () => Markets)
+Navigation.registerComponent('phiscal.WatchList', () => WatchList)
+Navigation.registerComponent('phiscal.News', () => News)
+// Navigation.registerComponent('awesome-places.PlaceDetailScreen', () => PlaceDetailScreen)
+Navigation.registerComponent('phiscal.SideDrawer', () => SideDrawer)
+
+// Start App
+// export default () =>
+//   Navigation.startSingleScreenApp({
+//     screen: {
+//       screen: 'awesome-places.AuthScreen',
+//       title: 'Login',
+//     },
+//   })
