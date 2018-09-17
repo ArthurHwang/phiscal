@@ -4,15 +4,8 @@
             "outputFile": "C:\\Users\\illitirit\\Code\\phiscal\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\illitirit\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\fc591cb33de0af314ec9630a0e21c69b\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\illitirit\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\657ca5c42b4797bca11c50e617f3089a\\res\\values-port\\values-port.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "280",
-                        "endColumns": "55",
-                        "endOffsets": "331"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",

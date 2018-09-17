@@ -4,9 +4,15 @@ ADDED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.
 INJECTED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-navigation] C:\Users\illitirit\Code\phiscal\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
+MERGED from [:react-native-vector-icons] C:\Users\illitirit\Code\phiscal\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\e4871075df653565e3f2e612e14d0edb\AndroidManifest.xml:2:1-15:12
-MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.0.1.aar\fc591cb33de0af314ec9630a0e21c69b\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:23.0.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\dadcf38e255b8ea904ba997b53b92661\AndroidManifest.xml:17:1-24:12
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\1a0d25c4271bf0c5a49ebfa60e97bf8e\AndroidManifest.xml:2:1-14:12
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\1a2b5365a144efd8a2bf43cf367d94df\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\7f06bbd3a009b112d3e8a48fd9576d21\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\657ca5c42b4797bca11c50e617f3089a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\7b7892a2f801e05ac527067964510591\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\c93283ec302d3be49cf6ac897e02b293\AndroidManifest.xml:17:1-31:12
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\7f54e539837ff133e3a4c061e5247d86\AndroidManifest.xml:10:1-18:12
 MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\6d345f2971a3e56fe715f997aae8ac88\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\3623985ea710bd5aed0a368b8b211f80\AndroidManifest.xml:2:1-9:12
@@ -16,6 +22,15 @@ MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\illitirit\.gradle\caches
 MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\4b3f168e91fe198db4764552453253c4\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\2c7305392989a89e253989e40688214f\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\d04e55c1765bc36d098092541e9d838a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\142671506333de6e109cf4d19b7074ca\AndroidManifest.xml:17:1-26:12
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\e6cb44b64061064934bf2d94736ffa49\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b1e682fdfe70af8e19ef47a6b42c5af3\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\c232a0dcb6a4d0576a8bb1e80cf54742\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\667f31a5d661fb87061c1bbe7176f982\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\dc6eec05e628f8160393d1904114eb09\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\9106529ac0d8d844b92d0ffb915dd32d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\da86b353490e8eb3068c6bc2fee9656e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\5d857196142ac76ac05c8f6b6d845e31\AndroidManifest.xml:17:1-31:12
 INJECTED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml:1:1-26:12
@@ -45,16 +60,42 @@ MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\illitirit\.gradle\
 		ADDED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml:5:22-75
 application
 ADDED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [:react-native-navigation] C:\Users\illitirit\Code\phiscal\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [:react-native-navigation] C:\Users\illitirit\Code\phiscal\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\e4871075df653565e3f2e612e14d0edb\AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\e4871075df653565e3f2e612e14d0edb\AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.0.1.aar\fc591cb33de0af314ec9630a0e21c69b\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.0.1.aar\fc591cb33de0af314ec9630a0e21c69b\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\dadcf38e255b8ea904ba997b53b92661\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\dadcf38e255b8ea904ba997b53b92661\AndroidManifest.xml:22:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\1a0d25c4271bf0c5a49ebfa60e97bf8e\AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\1a0d25c4271bf0c5a49ebfa60e97bf8e\AndroidManifest.xml:12:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\1a2b5365a144efd8a2bf43cf367d94df\AndroidManifest.xml:11:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\1a2b5365a144efd8a2bf43cf367d94df\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\7f06bbd3a009b112d3e8a48fd9576d21\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\7f06bbd3a009b112d3e8a48fd9576d21\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\657ca5c42b4797bca11c50e617f3089a\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\657ca5c42b4797bca11c50e617f3089a\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\7b7892a2f801e05ac527067964510591\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\7b7892a2f801e05ac527067964510591\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\c93283ec302d3be49cf6ac897e02b293\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\c93283ec302d3be49cf6ac897e02b293\AndroidManifest.xml:29:5-20
 MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\91c65edd13b6d1b5a70fa4abeba029ac\AndroidManifest.xml:3:3-17
 MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\91c65edd13b6d1b5a70fa4abeba029ac\AndroidManifest.xml:3:3-17
 MERGED from [org.webkit:android-jsc:r174650] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\dcd1ada2907fe200192ad1512a3d78c6\AndroidManifest.xml:2:3-17
 MERGED from [org.webkit:android-jsc:r174650] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\dcd1ada2907fe200192ad1512a3d78c6\AndroidManifest.xml:2:3-17
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\e6cb44b64061064934bf2d94736ffa49\AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\e6cb44b64061064934bf2d94736ffa49\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b1e682fdfe70af8e19ef47a6b42c5af3\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b1e682fdfe70af8e19ef47a6b42c5af3\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\c232a0dcb6a4d0576a8bb1e80cf54742\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\c232a0dcb6a4d0576a8bb1e80cf54742\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\667f31a5d661fb87061c1bbe7176f982\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\667f31a5d661fb87061c1bbe7176f982\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\dc6eec05e628f8160393d1904114eb09\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\dc6eec05e628f8160393d1904114eb09\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\9106529ac0d8d844b92d0ffb915dd32d\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\9106529ac0d8d844b92d0ffb915dd32d\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\da86b353490e8eb3068c6bc2fee9656e\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\da86b353490e8eb3068c6bc2fee9656e\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\5d857196142ac76ac05c8f6b6d845e31\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\5d857196142ac76ac05c8f6b6d845e31\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml:9:7-39
 	android:icon
@@ -87,18 +128,34 @@ ADDED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.
 		ADDED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml:20:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
 ADDED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml:23:7-84
+MERGED from [:react-native-navigation] C:\Users\illitirit\Code\phiscal\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-17:40
+MERGED from [:react-native-navigation] C:\Users\illitirit\Code\phiscal\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from [:react-native-navigation] C:\Users\illitirit\Code\phiscal\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-37
 	android:name
 		ADDED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml:23:17-81
 uses-sdk
 INJECTED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-navigation] C:\Users\illitirit\Code\phiscal\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] C:\Users\illitirit\Code\phiscal\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\illitirit\Code\phiscal\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\illitirit\Code\phiscal\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\e4871075df653565e3f2e612e14d0edb\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\e4871075df653565e3f2e612e14d0edb\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.0.1.aar\fc591cb33de0af314ec9630a0e21c69b\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.0.1.aar\fc591cb33de0af314ec9630a0e21c69b\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\dadcf38e255b8ea904ba997b53b92661\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\dadcf38e255b8ea904ba997b53b92661\AndroidManifest.xml:20:5-43
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\1a0d25c4271bf0c5a49ebfa60e97bf8e\AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\1a0d25c4271bf0c5a49ebfa60e97bf8e\AndroidManifest.xml:8:5-10:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\1a2b5365a144efd8a2bf43cf367d94df\AndroidManifest.xml:7:5-9:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\1a2b5365a144efd8a2bf43cf367d94df\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\7f06bbd3a009b112d3e8a48fd9576d21\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\7f06bbd3a009b112d3e8a48fd9576d21\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\657ca5c42b4797bca11c50e617f3089a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\657ca5c42b4797bca11c50e617f3089a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\7b7892a2f801e05ac527067964510591\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\7b7892a2f801e05ac527067964510591\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\c93283ec302d3be49cf6ac897e02b293\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\c93283ec302d3be49cf6ac897e02b293\AndroidManifest.xml:21:5-23:54
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\7f54e539837ff133e3a4c061e5247d86\AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\7f54e539837ff133e3a4c061e5247d86\AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\6d345f2971a3e56fe715f997aae8ac88\AndroidManifest.xml:5:5-7:41
@@ -115,8 +172,28 @@ MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\illitirit\.g
 MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\2c7305392989a89e253989e40688214f\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\d04e55c1765bc36d098092541e9d838a\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\d04e55c1765bc36d098092541e9d838a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\142671506333de6e109cf4d19b7074ca\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\142671506333de6e109cf4d19b7074ca\AndroidManifest.xml:20:5-43
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\e6cb44b64061064934bf2d94736ffa49\AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\material-menu-1.5.4.aar\e6cb44b64061064934bf2d94736ffa49\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b1e682fdfe70af8e19ef47a6b42c5af3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b1e682fdfe70af8e19ef47a6b42c5af3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\c232a0dcb6a4d0576a8bb1e80cf54742\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\c232a0dcb6a4d0576a8bb1e80cf54742\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\667f31a5d661fb87061c1bbe7176f982\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\667f31a5d661fb87061c1bbe7176f982\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\dc6eec05e628f8160393d1904114eb09\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\dc6eec05e628f8160393d1904114eb09\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\9106529ac0d8d844b92d0ffb915dd32d\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\9106529ac0d8d844b92d0ffb915dd32d\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\da86b353490e8eb3068c6bc2fee9656e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\da86b353490e8eb3068c6bc2fee9656e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\5d857196142ac76ac05c8f6b6d845e31\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\5d857196142ac76ac05c8f6b6d845e31\AndroidManifest.xml:21:5-23:58
 INJECTED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\7f06bbd3a009b112d3e8a48fd9576d21\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml
@@ -125,6 +202,40 @@ INJECTED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManife
 		INJECTED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml
+activity#com.reactnativenavigation.controllers.NavigationActivity
+ADDED from [:react-native-navigation] C:\Users\illitirit\Code\phiscal\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:9-14:86
+	android:configChanges
+		ADDED from [:react-native-navigation] C:\Users\illitirit\Code\phiscal\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:13-83
+	android:name
+		ADDED from [:react-native-navigation] C:\Users\illitirit\Code\phiscal\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:13-84
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\7f06bbd3a009b112d3e8a48fd9576d21\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\657ca5c42b4797bca11c50e617f3089a\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\657ca5c42b4797bca11c50e617f3089a\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\7b7892a2f801e05ac527067964510591\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\7b7892a2f801e05ac527067964510591\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\c93283ec302d3be49cf6ac897e02b293\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\c93283ec302d3be49cf6ac897e02b293\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\142671506333de6e109cf4d19b7074ca\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\142671506333de6e109cf4d19b7074ca\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b1e682fdfe70af8e19ef47a6b42c5af3\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b1e682fdfe70af8e19ef47a6b42c5af3\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\c232a0dcb6a4d0576a8bb1e80cf54742\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\c232a0dcb6a4d0576a8bb1e80cf54742\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\667f31a5d661fb87061c1bbe7176f982\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\667f31a5d661fb87061c1bbe7176f982\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\dc6eec05e628f8160393d1904114eb09\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\dc6eec05e628f8160393d1904114eb09\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\9106529ac0d8d844b92d0ffb915dd32d\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\9106529ac0d8d844b92d0ffb915dd32d\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\da86b353490e8eb3068c6bc2fee9656e\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\da86b353490e8eb3068c6bc2fee9656e\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\5d857196142ac76ac05c8f6b6d845e31\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\5d857196142ac76ac05c8f6b6d845e31\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\7f06bbd3a009b112d3e8a48fd9576d21\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\illitirit\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\7f06bbd3a009b112d3e8a48fd9576d21\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 IMPLIED from C:\Users\illitirit\Code\phiscal\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE

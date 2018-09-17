@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		n1JqDgn1qvZ2fJ1F/2y+tPXvVbE=
+		iCJaB+6Vx6L9fk1isCX+eron+2E=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
@@ -51,7 +51,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VmJJ8tLiIGr0CD0BBzGH1KNt6Jw=
+		qzvifj4lP47TecXmLplJc2cr3k8=
+		</data>
+		<key>Ionicons.ttf</key>
+		<data>
+		mRu3+slwnNWNo3kBdw79RwPFQu0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -63,7 +67,7 @@
 		</data>
 		<key>PlugIns/phiscalTests.xctest.dSYM/Contents/Resources/DWARF/phiscalTests</key>
 		<data>
-		Dg3lRRkPSpsbdVDicLQUJGcYDM0=
+		P84eJYmudUu4WLktHYJSGqsTjJI=
 		</data>
 		<key>PlugIns/phiscalTests.xctest/Info.plist</key>
 		<data>
@@ -75,7 +79,7 @@
 		</data>
 		<key>PlugIns/phiscalTests.xctest/phiscalTests</key>
 		<data>
-		fNbGyiOZ+HKApQnUAvxdMRnfdBI=
+		HKvyxc/SsH6FV1jPtG2orqEw6sA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -84,11 +88,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			n1JqDgn1qvZ2fJ1F/2y+tPXvVbE=
+			iCJaB+6Vx6L9fk1isCX+eron+2E=
 			</data>
 			<key>hash2</key>
 			<data>
-			yfgar6PNMUkmOnIFDqBZSxoVwEuBhax+1TMXsg+QB7s=
+			y/zBvRSdqciBmp51WTsx2P7esdYavWoUc75s2z2aYrE=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
@@ -192,6 +196,17 @@
 			2hnwNPgdaewT28DbTqe0Gpaccdc2akBF8IjnGtISc58=
 			</data>
 		</dict>
+		<key>Ionicons.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mRu3+slwnNWNo3kBdw79RwPFQu0=
+			</data>
+			<key>hash2</key>
+			<data>
+			INFzvLYFHQlzvgymqi+08npbKQ2AEGyyxWfI/cdyxxE=
+			</data>
+		</dict>
 		<key>PlugIns/phiscalTests.xctest.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
@@ -207,11 +222,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Dg3lRRkPSpsbdVDicLQUJGcYDM0=
+			P84eJYmudUu4WLktHYJSGqsTjJI=
 			</data>
 			<key>hash2</key>
 			<data>
-			/JvhWanQmo8e91vabqWoPe6JtqEoPllOhWDNAM2P4Tc=
+			rWEJGDNGGBfBuNew2LO0XOE1GUJAHgnNpUEBm84FOxE=
 			</data>
 		</dict>
 		<key>PlugIns/phiscalTests.xctest/Info.plist</key>
@@ -240,11 +255,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fNbGyiOZ+HKApQnUAvxdMRnfdBI=
+			HKvyxc/SsH6FV1jPtG2orqEw6sA=
 			</data>
 			<key>hash2</key>
 			<data>
-			b8VCSDXlUKEu6QuGGM/R1sCk8k0em0EabABSqxch+Mc=
+			xTJGpMd0Unia2oTZVCT5eT/f4wtSx6x1UYH5BYKi454=
 			</data>
 		</dict>
 	</dict>
