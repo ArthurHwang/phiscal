@@ -1,26 +1,17 @@
 import { Navigation } from 'react-native-navigation'
 import { Provider } from 'react-redux'
-// import { registerScreens } from './screens'
 
 import Markets from './src/screens/Markets'
-import WatchList from './src/screens/WatchList'
+import WatchList from './src/screens/Watch'
 import News from './src/screens/News'
 import SideDrawer from './src/screens/SideDrawer'
 
 import configureStore from './src/store/configureStore'
 
-// Register Screens
-Navigation.registerComponent('phiscal.Markets', () => Markets)
-Navigation.registerComponent('phiscal.WatchList', () => WatchList)
-Navigation.registerComponent('phiscal.News', () => News)
-// Navigation.registerComponent('awesome-places.PlaceDetailScreen', () => PlaceDetailScreen)
-Navigation.registerComponent('phiscal.SideDrawer', () => SideDrawer)
+const store = configureStore()
 
-// Start App
-// export default () =>
-//   Navigation.startSingleScreenApp({
-//     screen: {
-//       screen: 'awesome-places.AuthScreen',
-//       title: 'Login',
-//     },
-//   })
+// Register Screens
+Navigation.registerComponent('phiscal.Markets', () => Markets, store, Provider)
+Navigation.registerComponent('phiscal.WatchList', () => WatchList, store, Provider)
+Navigation.registerComponent('phiscal.News', () => News, store, Provider)
+Navigation.registerComponent('phiscal.SideDrawer', () => SideDrawer, store, Provider)

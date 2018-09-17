@@ -7,13 +7,9 @@ import App from './App'
 import startMainTabs from './src/screens/startMainTabs'
 
 startMainTabs()
-// App()
-
-// const store = configureStore()
-// console.disableYellowBox = true
 
 const RNRedux = () => (
-  <Provider>
+  <Provider store={store}>
     <App />
   </Provider>
 )

@@ -7,8 +7,8 @@ const startTabs = () => {
     Icon.getImageSource(Platform.OS === 'android' ? 'md-cash' : 'ios-map', 30),
     Icon.getImageSource(Platform.OS === 'android' ? 'md-menu' : 'ios-menu', 30),
     Icon.getImageSource(Platform.OS === 'android' ? 'md-share-alt' : 'ios-share', 30),
-    Icon.getImageSource(Platform.OS === 'android' ? 'md-eye' : 'ios-share', 30),
-    Icon.getImageSource(Platform.OS === 'android' ? 'md-paper' : 'ios-share', 30),
+    Icon.getImageSource(Platform.OS === 'android' ? 'md-eye' : 'ios-eye', 30),
+    Icon.getImageSource(Platform.OS === 'android' ? 'md-paper' : 'ios-paper', 30),
   ]).then(sources => {
     Navigation.startTabBasedApp({
       tabs: [
