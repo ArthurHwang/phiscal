@@ -20,6 +20,7 @@ yarn-error.log*
 .vscode/
 
 # Xcode
+build/
 !**/*.xcodeproj
 !**/*.pbxproj
 !**/*.xcworkspacedata
@@ -44,10 +45,10 @@ project.xcworkspace
 
 # Gradle
 /build/
-/RNTester/android/app/build/
-/RNTester/android/app/gradle/
-/RNTester/android/app/gradlew
-/RNTester/android/app/gradlew.bat
+/android/app/build/
+/android/app/gradle/
+/android/app/gradlew
+/android/app/gradlew.bat
 /ReactAndroid/build/
 
 # Buck
@@ -65,7 +66,6 @@ buck-out
 .gradle
 local.properties
 *.iml
-/android/
 
 # Node
 node_modules
